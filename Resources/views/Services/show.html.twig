@@ -1,0 +1,22 @@
+<html>
+<head>
+{% block hybridauth_header %}
+    <link type="text/css" rel="stylesheet" href="{{ asset('bundles/epidouxhybridauth/css/zocial.css') }}"/>
+{% endblock %}
+</head>
+<body>
+{% block hybridauth_content %}
+    {% if info|length == 0 %}
+                <div class="service {{ key }}">
+                    <a href="{{ path("hybridauth_show",{'provider':provider}) }}" class="zocial {{ key }}">{{ key }}</a><br/>
+
+                </div>
+    {% else %}
+        {% for key,obj in info %}
+            connected on {{ key }} with {{ attribute(obj,"displayName") }}<br/>
+        {% endfor %}
+    {% endif %}
+
+{% endblock %}
+</body>
+</html>

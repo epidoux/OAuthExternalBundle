@@ -1,0 +1,7 @@
+oauthexternal_connect:
+    pattern:  /service/connect
+    defaults: { _controller: epidouxOAuthExternalBundle:Connect:list }
+
+oauthexternal_show:
+    pattern: /service/show/{provider}
+    defaults: { _controller: epidouxHybridAuthBundle:Connect:show }

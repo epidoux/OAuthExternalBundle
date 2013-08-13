@@ -1,0 +1,5 @@
+service.twitter.link.name: Link your Twitter account
+service.facebook.link.name: Link your Facebook account
+service.google.link.name: Link your Google+ account
+
+msg.success.account.linked: Your account was linked

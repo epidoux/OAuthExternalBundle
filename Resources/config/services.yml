@@ -1,0 +1,12 @@
+parameters:
+     oauth.class: Epidoux\OAuthExternalBundle\Services\AuthService
+     oauth.provider_factory.class: Epidoux\OAuthExternalBundle\Factories\ProviderFactory
+
+services:
+     oauth.service:
+        class: %oauth.class%
+        arguments: [%oauth.services%,%oauth.callback%,@logger,@oauth.factory.provider]
+
+     oauth.factory.provider:
+        class: %oauth.provider_factory.class%
+        arguments: []
