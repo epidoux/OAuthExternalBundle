@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/AmazonConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/BitbucketConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/BitlyConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/BoxConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/DailymotionConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/DataEmail.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/DataUser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/DeviantartConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/DisqusConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/DropboxConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/EventfulConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/EvernoteConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/FacebookConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/FitbitConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/FlickrConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/FoursquareConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/GithubConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/GoogleConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/InstagramConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/LinkedinConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/OAuth1Connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/OAuth1aConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/OAuth2Connector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/OdnoklassnikiConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/QqConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/RightSignatureConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/SalesforceConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/ScoopitConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/SinaWeiboConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/StackExchangeConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/StereomoodConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/StockTwitsConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/SurveyMonkeyConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/ThirtySevenSignalsConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/TumblrConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/VkontaktConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/WindowsLiveConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/WordpressConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/XingConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/YahooConnector.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Entities/Connectors/YandexConnector.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="" />
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376384476344" ignored="false" />
@@ -191,10 +144,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Configuration.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Configuration.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="81" column="38" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.30274135">
+                <state line="94" column="22" selection-start="2772" selection-end="2772" vertical-scroll-proportion="-18.708334">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/composer.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1" column="13" selection-start="15" selection-end="42" vertical-scroll-proportion="0.017605634">
                   <folding />
                 </state>
               </provider>
@@ -659,7 +621,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="38" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.30274135">
+        <state line="94" column="22" selection-start="2772" selection-end="2772" vertical-scroll-proportion="-18.708334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="13" selection-start="15" selection-end="42" vertical-scroll-proportion="0.017605634">
           <folding />
         </state>
       </provider>
