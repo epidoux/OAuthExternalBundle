@@ -28,9 +28,4 @@ class OAuthExternalExtension extends Extension
         if(array_key_exists("callback_url",$config)) $container->setParameter("oauth.callback",$config['callback_url']);
 
     }
-
-    public function getAlias()
-    {
-        return 'epidoux_oauth_external';
-    }
 }
