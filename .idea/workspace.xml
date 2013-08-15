@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php" afterPath="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/epidouxOAuthExternalBundle.php" afterPath="$PROJECT_DIR$/EpidouxOAuthExternalBundle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phpunit.xml.dist" afterPath="$PROJECT_DIR$/phpunit.xml.dist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php" afterPath="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,32 +49,137 @@
     <file path="/EvernoteConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321971538" ignored="false" />
     <file path="/TumblrConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322080061" ignored="false" />
     <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376401217856" ignored="false" />
-    <file path="/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376594082006" ignored="false" />
+    <file path="/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
     <file path="/list.html.twig" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376397570212" ignored="false" />
-    <file path="/var/www/symfony/app/config/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376573557123" ignored="false" />
-    <file path="/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376490676482" ignored="false" />
-    <file path="/var/www/symfony/app/AppKernel.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376490385534" ignored="false" />
-    <file path="/AppKernel.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376567227420" ignored="false" />
-    <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376489053680" ignored="false" />
-    <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376490755220" ignored="false" />
-    <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376572777592" ignored="false" />
+    <file path="/var/www/symfony/app/config/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376597174701" ignored="false" />
+    <file path="/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376597174701" ignored="false" />
+    <file path="/var/www/symfony/app/AppKernel.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596509046" ignored="false" />
+    <file path="/AppKernel.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596382630" ignored="false" />
+    <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
     <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
-    <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376491812491" ignored="false" />
+    <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
-    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
+    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376594228462" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376593867934" ignored="false" />
-    <file path="/var/www/symfony/app/autoload.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
+    <file path="/var/www/symfony/app/autoload.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376595192955" ignored="false" />
     <file path="/var/www/symfony/app/cache/de_/ap_DevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376567001448" ignored="false" />
     <file path="/var/www/symfony/vendor/sexyboys/inflexible/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/vendor/doctrine/common/lib/Doctrine/Common/Annotations/AnnotationRegistry.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/vendor/autoload.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/vendor/jdorn/sql-formatter/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/app/bootstrap.php.cache" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
-    <file path="/var/www/symfony/app/config/parameters.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376593867934" ignored="false" />
+    <file path="/var/www/symfony/app/config/parameters.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376593900162" ignored="false" />
     <file path="/EpidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376593973486" ignored="false" />
     <file path="/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376594024822" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/foo.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/services8.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/invalid.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/src/Acme/DemoBundle/Controller/WelcomeController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/schema.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Util/invalid_schema.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/Tests/Fixtures/Again/foo.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/services2.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/extension2/services.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/nonvalidnode.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/extensions/services2.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/validpattern.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/app/config/config_prod.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/extensions/services3.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/missing_id.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/extensions/services4.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/extensions/services1.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/icu/Symfony/Component/Icu/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Tests/DependencyInjection/Fixtures/xml/empty.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/OptionsResolver/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/doctrine/orm/doctrine-mapping.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/app/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Yaml/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/doctrine/orm/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_2.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/custom_acl_provider.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/merge_import.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/templating_php.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/DependencyInjection/Fixtures/xml/container1.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/CssSelector/Tests/XPath/Fixtures/lang.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/assetic.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/includes/schema/project-1.0.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Process/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/controller.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/templating_twig.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_1.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Monolog/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_1.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/jsminplus.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/less.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/yui_css.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/lessphp.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_1.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/jsmin.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/config/security_rememberme.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/config/collectors.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/cssembed.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/Resources/config/schema/twig-1.0.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/stylus.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Resources/config/security.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_definition_2.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/handlebars.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Propel1/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/gss.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Locale/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/sensio/distribution-bundle/Sensio/Bundle/DistributionBundle/Resources/config/routing/webconfigurator.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/compass.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/optipng.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Security/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/views/layout.html.twig" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/cssrewrite.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/jpegtran.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/uglifyjs2.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/ProxyManager/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/assetic-bundle/Symfony/Bundle/AsseticBundle/Resources/config/filters/yui_js.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/app/config/config_dev.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/templating_php.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/templating_debug.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Finder/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/fragment_renderer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/validator.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/profiling.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Translation/Loader/schema/dic/xliff-core/xliff-core-1.2-strict.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/templating.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_argument_3.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/annotations.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/sensio/framework-extra-bundle/Sensio/Bundle/FrameworkExtraBundle/Resources/config/routing.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Config/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/session.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config/profiler.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/form_csrf.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/input_option_4.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Twig/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Resources/config/schema/symfony-1.0.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config/schema/webprofiler-1.0.xsd" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/application_1.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/Tests/Fixtures/command_2.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/config/routing/profiler.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/doctrine/dbal/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/session.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/TwigBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bridge/Doctrine/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Console/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/services5.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/nonvalid.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/Routing/Tests/Fixtures/validresource.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/app/config/parameters.yml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/services4_bad_import.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/profiler.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/withdoctype.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
+    <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/templating_url_package.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +201,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.6243132">
       <split-first>
         <leaf>
-          <file leaf-file-name="EpidouxOAuthExternalBundleExtension.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="EpidouxOAuthExternalBundleExtension.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="3" selection-start="287" selection-end="287" vertical-scroll-proportion="0.15625">
+                <state line="21" column="30" selection-start="662" selection-end="662" vertical-scroll-proportion="-13.125">
                   <folding>
                     <element signature="e#67#126#0" expanded="true" />
                   </folding>
@@ -109,11 +212,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+          <file leaf-file-name="Configuration.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="42" column="69" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-23.75">
-                  <folding />
+                <state line="139" column="40" selection-start="4842" selection-end="4842" vertical-scroll-proportion="0.84375">
+                  <folding>
+                    <element signature="e#67#127#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -122,28 +227,19 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Configuration.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="76" column="19" selection-start="1920" selection-end="1920" vertical-scroll-proportion="-46.875">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/composer.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="16" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+                <state line="26" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="0.4513889">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="55" selection-start="239" selection-end="239" vertical-scroll-proportion="0.10428737">
+                <state line="6" column="55" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -169,7 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Entities/Connectors/TumblrConnector.php" />
         <option value="$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php" />
         <option value="$PROJECT_DIR$/Entities/Connectors/XingConnector.php" />
         <option value="$PROJECT_DIR$/Entities/Connectors/YahooConnector.php" />
@@ -179,12 +274,13 @@
         <option value="$PROJECT_DIR$/Services/AuthService.php" />
         <option value="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" />
         <option value="$PROJECT_DIR$/Resources/views/Services/list.html.twig" />
-        <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
         <option value="$PROJECT_DIR$/EpidouxOAuthExternalBundle.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php" />
         <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
         <option value="$PROJECT_DIR$/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php" />
+        <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
       </list>
     </option>
   </component>
@@ -468,14 +564,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1922" height="1085" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22406417" sideWeight="0.67132115" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22406417" sideWeight="0.67132115" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -563,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -612,30 +701,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="19" selection-start="1920" selection-end="1920" vertical-scroll-proportion="-46.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="55" selection-start="239" selection-end="239" vertical-scroll-proportion="0.10428737">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="69" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-23.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="63" selection-start="291" selection-end="291" vertical-scroll-proportion="0.11653718">
+        <state line="6" column="55" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -654,11 +722,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="69" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.6597222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="63" selection-start="291" selection-end="291" vertical-scroll-proportion="0.11653718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="287" selection-end="287" vertical-scroll-proportion="0.15625">
+        <state line="21" column="30" selection-start="662" selection-end="662" vertical-scroll-proportion="-13.125">
           <folding>
             <element signature="e#67#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="728" selection-end="728" vertical-scroll-proportion="0.4513889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="40" selection-start="4842" selection-end="4842" vertical-scroll-proportion="0.84375">
+          <folding>
+            <element signature="e#67#127#0" expanded="true" />
           </folding>
         </state>
       </provider>
