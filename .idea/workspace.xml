@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php" afterPath="$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +39,7 @@
     <file path="/SurveyMonkeyConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376316483539" ignored="false" />
     <file path="/XingConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322107676" ignored="false" />
     <file path="/ProviderFactory.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376337585589" ignored="false" />
-    <file path="/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376315724121" ignored="false" />
+    <file path="/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576245294" ignored="false" />
     <file path="/YahooConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322115602" ignored="false" />
     <file path="/RightSignatureConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322033340" ignored="false" />
     <file path="/WindowsLiveConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376316643952" ignored="false" />
@@ -60,10 +58,10 @@
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376572777592" ignored="false" />
     <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376491812491" ignored="false" />
-    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376559045037" ignored="false" />
+    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
-    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376574596728" ignored="false" />
+    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/app/autoload.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/app/cache/de_/ap_DevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376567001448" ignored="false" />
     <file path="/var/www/symfony/vendor/sexyboys/inflexible/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
@@ -71,6 +69,7 @@
     <file path="/var/www/symfony/vendor/autoload.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/vendor/jdorn/sql-formatter/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/app/bootstrap.php.cache" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
+    <file path="/var/www/symfony/app/config/parameters.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,8 +179,10 @@
           <file leaf-file-name="Configuration.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="113" column="19" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.55985916">
-                  <folding />
+                <state line="2" column="39" selection-start="46" selection-end="46" vertical-scroll-proportion="0.03403756">
+                  <folding>
+                    <element signature="e#67#127#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -678,8 +679,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="19" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.55985916">
-          <folding />
+        <state line="2" column="39" selection-start="46" selection-end="46" vertical-scroll-proportion="0.03403756">
+          <folding>
+            <element signature="e#67#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

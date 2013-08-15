@@ -1,6 +1,6 @@
 <?php
 
-namespace Epidoux\ContactsImporterBundle\DependencyInjection;
+namespace Epidoux\OAuthExternalBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
