@@ -2,7 +2,7 @@
 
 namespace Epidoux\OAuthExternalBundle\Controller;
 
-use Epidoux\HybridAuthBundle\Factories\ServiceFactory;
+use Epidoux\OAuthExternalBundle\Factories\ServiceFactory;
 use Symfony\Component\DependencyInjection\ContainerAware;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
