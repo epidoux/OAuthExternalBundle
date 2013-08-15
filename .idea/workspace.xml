@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/translations/messages.fr.xlf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="" />
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376556849357" ignored="false" />
@@ -72,7 +67,7 @@
     <file path="/var/www/symfony/vendor/autoload.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/vendor/jdorn/sql-formatter/phpunit.xml.dist" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
     <file path="/var/www/symfony/app/bootstrap.php.cache" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376571400375" ignored="false" />
-    <file path="/var/www/symfony/app/config/parameters.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376580744599" ignored="false" />
+    <file path="/var/www/symfony/app/config/parameters.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376582076272" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,10 +116,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="epidouxOAuthExternalBundleExtension.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="epidouxOAuthExternalBundleExtension.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="1" selection-start="518" selection-end="518" vertical-scroll-proportion="0.2681764">
+                <state line="34" column="5" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.6078665">
                   <folding>
                     <element signature="e#67#126#0" expanded="true" />
                   </folding>
@@ -136,10 +131,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Configuration.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="Configuration.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="137" column="22" selection-start="4804" selection-end="4804" vertical-scroll-proportion="1.7151371">
+                <state line="137" column="22" selection-start="4804" selection-end="4804" vertical-scroll-proportion="2.4493444">
                   <folding>
                     <element signature="e#67#127#0" expanded="true" />
                     <marker date="1376581773345" expanded="true" signature="1415:4840" placeholder="{...}" />
@@ -650,22 +645,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="518" selection-end="518" vertical-scroll-proportion="0.2681764">
-          <folding>
-            <element signature="e#67#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="22" selection-start="4804" selection-end="4804" vertical-scroll-proportion="1.7151371">
+        <state line="137" column="22" selection-start="4804" selection-end="4804" vertical-scroll-proportion="2.4493444">
           <folding>
             <element signature="e#67#127#0" expanded="true" />
             <marker date="1376581773345" expanded="true" signature="1415:4840" placeholder="{...}" />
             <marker date="1376581773345" expanded="true" signature="4487:4597" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="5" selection-start="1173" selection-end="1173" vertical-scroll-proportion="0.6078665">
+          <folding>
+            <element signature="e#67#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
