@@ -31,6 +31,6 @@ class epidouxOAuthExternalBundleExtension extends Extension
 
     public function getAlias()
     {
-        return 'epidoux_oauth_external';
+        return 'epidoux_oauth';
     }
 }

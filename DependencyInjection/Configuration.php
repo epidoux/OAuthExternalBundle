@@ -67,12 +67,11 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->scalarNode('callback_url')->end()
+                ->scalarNode('callback_url')->isRequired()->end()
                 ->arrayNode('services')
                     ->isRequired()
                     ->requiresAtLeastOneElement()
                     ->useAttributeAsKey('name')
-                    ->prototype('array')
                         ->children()
                             ->scalarNode('base_url')->end()
                             ->scalarNode('access_token_url')
@@ -135,7 +134,6 @@ class Configuration implements ConfigurationInterface
                             ->end()
 
                         ->end()
-                    ->end()
                 ->end()
             ->end();
 
