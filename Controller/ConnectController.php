@@ -40,7 +40,7 @@ class ConnectController extends ContainerAware
                 else $this->get('session')->getFlashBag()->add('success', "Succefully connected on ".$connector->getName());
             }
         }
-        return $this->container->get('templating')->renderResponse('epidouxOAuthExternalBundle:Services:list.html.twig',
+        return $this->container->get('templating')->renderResponse('EpidouxOAuthExternalBundle:Services:list.html.twig',
             array(
                 "services"=>$services
             )

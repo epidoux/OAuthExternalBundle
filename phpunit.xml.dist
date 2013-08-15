@@ -13,7 +13,7 @@
         >
 
     <testsuites>
-        <testsuite name="ContactsImporterBundle Test Suite">
+        <testsuite name="OAuthExternalBundle Test Suite">
             <directory>./Tests</directory>
         </testsuite>
     </testsuites>
