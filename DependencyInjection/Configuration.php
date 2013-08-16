@@ -65,7 +65,7 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('epidoux_oauth_external');
 
-       /* $rootNode
+       $rootNode
             ->children()
                 ->scalarNode('callback_url')->isRequired()->end()
                 ->arrayNode('services')
@@ -135,7 +135,7 @@ class Configuration implements ConfigurationInterface
 
                         ->end()
                 ->end()
-            ->end();*/
+            ->end();
 
         return $treeBuilder;
     }

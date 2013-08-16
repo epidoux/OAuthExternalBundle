@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DependencyInjection/Configuration.php" afterPath="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376593591193" ignored="false" />
+    <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376645468998" ignored="false" />
     <file path="/a.dummy" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376601074101" ignored="false" />
     <file path="/.gitignore" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376248669071" ignored="false" />
     <file path="/services.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376314202174" ignored="false" />
@@ -202,18 +203,16 @@
           <file leaf-file-name="OAuthExternalExtension.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/OAuthExternalExtension.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="31" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-19.375">
-                  <folding>
-                    <element signature="e#67#126#0" expanded="true" />
-                  </folding>
+                <state line="31" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Configuration.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="Configuration.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="137" column="22" selection-start="4813" selection-end="4813" vertical-scroll-proportion="0.8118586">
+                <state line="67" column="7" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.36145952">
                   <folding>
                     <element signature="e#67#127#0" expanded="true" />
                   </folding>
@@ -225,7 +224,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="composer.json" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/composer.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="22" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.38194445">
@@ -284,8 +283,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1922" />
     <option name="height" value="1085" />
   </component>
@@ -315,6 +313,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -505,7 +504,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -562,7 +560,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="0" y="24" width="1922" height="1085" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -570,7 +568,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973261" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18877006" sideWeight="0.9699248" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19090909" sideWeight="0.9699248" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -653,9 +651,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1150" column="43" selection-start="44446" selection-end="44446" vertical-scroll-proportion="19.702026">
-          <folding />
-        </state>
+        <state line="1150" column="43" selection-start="44446" selection-end="44446" vertical-scroll-proportion="19.702026" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml.dist">
@@ -667,23 +663,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="43" selection-start="2088" selection-end="2111" vertical-scroll-proportion="1.5017879">
-          <folding />
-        </state>
+        <state line="84" column="43" selection-start="2088" selection-end="2111" vertical-scroll-proportion="1.5017879" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="39" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.14183553">
-          <folding />
-        </state>
+        <state line="101" column="39" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.14183553" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="44" selection-start="2530" selection-end="2530" vertical-scroll-proportion="1.3204225">
-          <folding />
-        </state>
+        <state line="75" column="44" selection-start="2530" selection-end="2530" vertical-scroll-proportion="1.3204225" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
@@ -695,68 +685,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="6" selection-start="13" selection-end="58" vertical-scroll-proportion="0.017361112">
-          <folding />
-        </state>
+        <state line="1" column="6" selection-start="13" selection-end="58" vertical-scroll-proportion="0.017361112" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="69" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.6597222">
-          <folding />
-        </state>
+        <state line="42" column="69" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.6597222" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="63" selection-start="291" selection-end="291" vertical-scroll-proportion="0.11653718">
-          <folding />
-        </state>
+        <state line="7" column="63" selection-start="291" selection-end="291" vertical-scroll-proportion="0.11653718" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/OAuthExternalExtension.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="-19.375">
-          <folding>
-            <element signature="e#67#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="22" selection-start="4813" selection-end="4813" vertical-scroll-proportion="0.8118586">
-          <folding>
-            <element signature="e#67#127#0" expanded="true" />
-          </folding>
+        <state line="31" column="0" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EpidouxOAuthExternalBundle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.108827084">
-          <folding />
-        </state>
+        <state line="6" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.108827084" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="6" selection-start="645" selection-end="645" vertical-scroll-proportion="0.38194445">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="7" selection-start="1538" selection-end="1538" vertical-scroll-proportion="0.36145952">
+          <folding>
+            <element signature="e#67#127#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
