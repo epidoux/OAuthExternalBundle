@@ -56,7 +56,7 @@
     <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
     <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
-    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376663220507" ignored="false" />
+    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376663750539" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
@@ -223,7 +223,7 @@
           <file leaf-file-name="ProviderFactory.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="76" column="31" selection-start="2600" selection-end="2600" vertical-scroll-proportion="0.72879">
+                <state line="78" column="9" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.7705146">
                   <folding />
                 </state>
               </provider>
@@ -761,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="31" selection-start="2600" selection-end="2600" vertical-scroll-proportion="0.72879">
+        <state line="78" column="9" selection-start="2651" selection-end="2651" vertical-scroll-proportion="0.7705146">
           <folding />
         </state>
       </provider>
