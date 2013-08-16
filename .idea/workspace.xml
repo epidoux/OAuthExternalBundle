@@ -56,7 +56,7 @@
     <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
     <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
-    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376653336276" ignored="false" />
+    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376654334394" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
@@ -223,10 +223,8 @@
           <file leaf-file-name="ProviderFactory.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12517385">
-                  <folding>
-                    <element signature="e#57#107#0" expanded="true" />
-                  </folding>
+                <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10431154">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -496,6 +494,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connectors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DependencyInjection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -745,10 +761,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.12517385">
-          <folding>
-            <element signature="e#57#107#0" expanded="true" />
-          </folding>
+        <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10431154">
+          <folding />
         </state>
       </provider>
     </entry>
