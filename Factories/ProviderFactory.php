@@ -3,6 +3,7 @@
 namespace Epidoux\OAuthExternalBundle\Factories;
 
 use Epidoux\OAuthExternalBundle\OAuth\OauthClient;
+use Epidoux\OAuthExternalBundle\Entities\Connectors;
 
 /**
  * Class ProviderFactory which creates the providers
