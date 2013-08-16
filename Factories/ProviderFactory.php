@@ -74,6 +74,7 @@ class ProviderFactory {
         $namespace = 'Epidoux\OAuthExternalBundle\Entities\Connectors';
         $class_total = $namespace.'\\'.$classname;
         $connector = new $class_total();
+        print_r($service);exit;
         //Generate the url redirect path
         $connector->setName($service['name']);
         $connector->setConfig($service);
