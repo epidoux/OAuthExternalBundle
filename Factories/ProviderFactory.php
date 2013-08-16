@@ -78,7 +78,7 @@ class ProviderFactory {
         $connector->setName($name);
         $connector->setConfig($service);
         $connector->setClient(new OauthClient());
-
+        return $connector;
     }
 
 }
