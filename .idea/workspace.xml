@@ -223,8 +223,10 @@
           <file leaf-file-name="ProviderFactory.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="67" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.10623229">
-                  <folding />
+                <state line="109" column="7" selection-start="5134" selection-end="5134" vertical-scroll-proportion="0.6175637">
+                  <folding>
+                    <element signature="e#57#107#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -761,8 +763,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="67" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.10623229">
-          <folding />
+        <state line="109" column="7" selection-start="5134" selection-end="5134" vertical-scroll-proportion="0.6175637">
+          <folding>
+            <element signature="e#57#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
