@@ -72,6 +72,7 @@ class Configuration implements ConfigurationInterface
                     ->isRequired()
                     ->requiresAtLeastOneElement()
                     ->useAttributeAsKey('name')
+                    ->prototype('array')
                         ->children()
                             ->scalarNode('base_url')->end()
                             ->scalarNode('access_token_url')
@@ -134,6 +135,7 @@ class Configuration implements ConfigurationInterface
                             ->end()
 
                         ->end()
+                    ->end()
                 ->end()
             ->end();
 
