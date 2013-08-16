@@ -111,7 +111,7 @@ class ProviderFactory {
     public function createConnector($name,$service)
     {
         $classname = $this->connectorsName[$service['type']];
-        $connector = new "\".$classname();
+        $connector = new $classname();
         //Generate the url redirect path
         $connector->setName($service['name']);
         $connector->setConfig($service);
