@@ -38,7 +38,7 @@
     <file path="/StockTwitsConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376316575624" ignored="false" />
     <file path="/SurveyMonkeyConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376316483539" ignored="false" />
     <file path="/XingConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322107676" ignored="false" />
-    <file path="/ProviderFactory.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376653369172" ignored="false" />
+    <file path="/ProviderFactory.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376659390241" ignored="false" />
     <file path="/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376652661914" ignored="false" />
     <file path="/YahooConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322115602" ignored="false" />
     <file path="/RightSignatureConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322033340" ignored="false" />
@@ -56,7 +56,7 @@
     <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
     <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
-    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376654334394" ignored="false" />
+    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376659332276" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
@@ -223,7 +223,7 @@
           <file leaf-file-name="ProviderFactory.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10431154">
+                <state line="44" column="67" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.10623229">
                   <folding />
                 </state>
               </provider>
@@ -761,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="161" selection-end="161" vertical-scroll-proportion="0.10431154">
+        <state line="44" column="67" selection-start="2956" selection-end="2956" vertical-scroll-proportion="0.10623229">
           <folding />
         </state>
       </provider>
