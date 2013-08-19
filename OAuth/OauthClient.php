@@ -1168,17 +1168,16 @@ class OauthClient
 		if(strlen($this->server) === 0)
 			return true;
 		$this->request_token_url = array_key_exists("request_token_url",$config)?$config['request_token_url']:"";
-		$this->append_state_to_redirect_uri = array_key_exists("request_token_url",$config)?$config['append_state_to_redirect_uri']:"";
-		$this->authorization_header = array_key_exists("request_token_url",$config)?$config['authorization_header']:"";
-		$this->url_parameters = array_key_exists("request_token_url",$config)?$config['url_parameters']:"";
-		$this->token_request_method = array_key_exists("request_token_url",$config)?$config['token_request_method']:"";
-		$this->signature_method = array_key_exists("request_token_url",$config)?$config['signature_method']:"";
-        $this->oauth_version = array_key_exists("request_token_url",$config)?$config['oauth_version']:"";
-        $this->request_token_url = array_key_exists("request_token_url",$config)?$config['request_token_url']:"";
-        $this->dialog_url = array_key_exists("request_token_url",$config)?$config['dialog_url']:"";
-        $this->access_token_url = array_key_exists("request_token_url",$config)?$config['access_token_url']:"";
-        $this->offline_dialog_url = array_key_exists("request_token_url",$config)?$config['offline_dialog_url']:"";
-        $this->oauth_version = array_key_exists("request_token_url",$config)?$config['oauth_version']:"";
+		$this->append_state_to_redirect_uri = array_key_exists("append_state_to_redirect_uri",$config)?$config['append_state_to_redirect_uri']:"";
+		$this->authorization_header = array_key_exists("authorization_header",$config)?$config['authorization_header']:"";
+		$this->url_parameters = array_key_exists("url_parameters",$config)?$config['url_parameters']:"";
+		$this->token_request_method = array_key_exists("token_request_method",$config)?$config['token_request_method']:"";
+		$this->signature_method = array_key_exists("signature_method",$config)?$config['signature_method']:"";
+        $this->oauth_version = array_key_exists("oauth_version",$config)?$config['oauth_version']:"";
+        $this->dialog_url = array_key_exists("dialog_url",$config)?$config['dialog_url']:"";
+        $this->access_token_url = array_key_exists("access_token_url",$config)?$config['access_token_url']:"";
+        $this->offline_dialog_url = array_key_exists("offline_dialog_url",$config)?$config['offline_dialog_url']:"";
+        $this->oauth_version = array_key_exists("oauth_version",$config)?$config['oauth_version']:"";
 
 		return(true);
 	}

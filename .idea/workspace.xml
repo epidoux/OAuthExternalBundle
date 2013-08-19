@@ -213,7 +213,7 @@
           <file leaf-file-name="OauthClient.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1166" column="42" selection-start="45078" selection-end="45078" vertical-scroll-proportion="0.04573171">
+                <state line="1179" column="62" selection-start="46301" selection-end="46301" vertical-scroll-proportion="0.3429878">
                   <folding />
                 </state>
               </provider>
@@ -780,7 +780,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1166" column="42" selection-start="45078" selection-end="45078" vertical-scroll-proportion="0.04573171">
+        <state line="1179" column="62" selection-start="46301" selection-end="46301" vertical-scroll-proportion="0.3429878">
           <folding />
         </state>
       </provider>
