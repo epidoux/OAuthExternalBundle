@@ -221,7 +221,7 @@
           <file leaf-file-name="http.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OAuth/http.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="44" selection-start="50" selection-end="50" vertical-scroll-proportion="-11.501524">
+                <state line="515" column="33" selection-start="14432" selection-end="14432" vertical-scroll-proportion="0.2515244">
                   <folding />
                 </state>
               </provider>
@@ -791,7 +791,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="44" selection-start="50" selection-end="50" vertical-scroll-proportion="-11.501524">
+        <state line="515" column="33" selection-start="14432" selection-end="14432" vertical-scroll-proportion="0.2515244">
           <folding />
         </state>
       </provider>
