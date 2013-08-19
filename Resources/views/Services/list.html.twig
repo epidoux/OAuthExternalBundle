@@ -4,10 +4,12 @@
 {% endblock %}
 </head>
 <body>
-{% for key,flashMessage in app.session.flashbag.all() %}
-    <div class="flash-{{ key }}">
-        {{ flashMessage }}
-    </div>
+{% for type,flashMessages in app.session.flashbag.all() %}
+    {% for flashMessage in flashMessages %}
+        <div class="flash-{{ type }}">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
 {% endfor %}
 {% block hybridauth_content %}
         <div class="services">
