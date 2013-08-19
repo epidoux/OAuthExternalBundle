@@ -39,8 +39,7 @@ class ConnectController extends ContainerAware
                 }
                 else{
                     $this->container->get('session')->getFlashBag()->add('success', "Succefully connected on ".$connector->getName());
-                    //get profile
-                    $this->container->get('oauth.service')->
+                    
                 }
             }
         }
