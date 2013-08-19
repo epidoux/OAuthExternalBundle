@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/OAuth/http.php" afterPath="$PROJECT_DIR$/OAuth/Http.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OAuth/OauthClient.php" afterPath="$PROJECT_DIR$/OAuth/OauthClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OAuth/Http.php" afterPath="$PROJECT_DIR$/OAuth/Http.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +47,7 @@
     <file path="/OAuth1aConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321883443" ignored="false" />
     <file path="/EvernoteConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321971538" ignored="false" />
     <file path="/TumblrConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322080061" ignored="false" />
-    <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376401217856" ignored="false" />
+    <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909475511" ignored="false" />
     <file path="/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
     <file path="/list.html.twig" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376397570212" ignored="false" />
     <file path="/var/www/symfony/app/config/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376653024400" ignored="false" />
@@ -184,6 +183,7 @@
     <file path="/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376904127291" ignored="false" />
     <file path="/http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376902376004" ignored="false" />
     <file path="/Http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909260152" ignored="false" />
+    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909455544" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,10 +214,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="OauthClient.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="OauthClient.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="4" column="42" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08498584">
+                <state line="4" column="43" selection-start="96" selection-end="180" vertical-scroll-proportion="-2.5">
                   <folding />
                 </state>
               </provider>
@@ -226,7 +226,16 @@
           <file leaf-file-name="Http.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OAuth/Http.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="10" selection-start="515" selection-end="519" vertical-scroll-proportion="-7.5">
+                <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.25">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConnectController.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="39" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.8003049">
                   <folding />
                 </state>
               </provider>
@@ -297,7 +306,6 @@
         <option value="$PROJECT_DIR$/phpunit.xml.dist" />
         <option value="$PROJECT_DIR$/EpidouxOAuthExternalBundle.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php" />
-        <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
         <option value="$PROJECT_DIR$/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/OAuthExternalExtension.php" />
@@ -306,8 +314,9 @@
         <option value="$PROJECT_DIR$/Services/AuthService.php" />
         <option value="$PROJECT_DIR$/Factories/ProviderFactory.php" />
         <option value="$PROJECT_DIR$/OAuth/http.php" />
-        <option value="$PROJECT_DIR$/OAuth/Http.php" />
         <option value="$PROJECT_DIR$/OAuth/OauthClient.php" />
+        <option value="$PROJECT_DIR$/OAuth/Http.php" />
+        <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
       </list>
     </option>
   </component>
@@ -716,11 +725,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="69" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.6597222" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="63" selection-start="291" selection-end="291" vertical-scroll-proportion="0.11653718" />
@@ -778,16 +782,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OAuth/Http.php">
+    <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="10" selection-start="515" selection-end="519" vertical-scroll-proportion="-7.5">
+        <state line="4" column="43" selection-start="96" selection-end="180" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
+    <entry file="file://$PROJECT_DIR$/OAuth/Http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="95" selection-end="95" vertical-scroll-proportion="0.08498584">
+        <state line="2" column="0" selection-start="51" selection-end="51" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="39" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.8003049">
           <folding />
         </state>
       </provider>

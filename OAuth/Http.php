@@ -10,6 +10,11 @@ define('HTTP_CLIENT_ERROR_CANNOT_ACCESS_LOCAL_FILE', 4);
 define('HTTP_CLIENT_ERROR_PROTOCOL_FAILURE',         5);
 define('HTTP_CLIENT_ERROR_INVALID_PARAMETERS',       6);
 
+/**
+@author Manuel Lemos (original)
+ * Class Http
+ * @package Epidoux\OAuthExternalBundle\OAuth
+ */
 class Http
 {
 	var $host_name="";
