@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="" />
+    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OAuth/OauthClient.php" afterPath="$PROJECT_DIR$/OAuth/OauthClient.php" />
+    </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376896211338" ignored="false" />
@@ -54,7 +56,7 @@
     <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
     <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
-    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376665541511" ignored="false" />
+    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376903266250" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
@@ -177,7 +179,7 @@
     <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/withdoctype.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
     <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/templating_url_package.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
     <file path="/OAuthExternalExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376647712163" ignored="false" />
-    <file path="/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376900120932" ignored="false" />
+    <file path="/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376904127291" ignored="false" />
     <file path="/http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376902376004" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -209,28 +211,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="OauthClient.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="OauthClient.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1" column="0" selection-start="6" selection-end="51" vertical-scroll-proportion="-0.625">
+                <state line="8" column="23" selection-start="210" selection-end="210" vertical-scroll-proportion="0.16997167">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="http.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="http.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OAuth/http.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="515" column="33" selection-start="14432" selection-end="14432" vertical-scroll-proportion="0.2515244">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ProviderFactory.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="80" column="26" selection-start="2763" selection-end="2763" vertical-scroll-proportion="-25.375">
+                <state line="1" column="43" selection-start="44" selection-end="49" vertical-scroll-proportion="-0.625">
                   <folding />
                 </state>
               </provider>
@@ -310,8 +303,8 @@
         <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/Services/AuthService.php" />
         <option value="$PROJECT_DIR$/Factories/ProviderFactory.php" />
-        <option value="$PROJECT_DIR$/OAuth/OauthClient.php" />
         <option value="$PROJECT_DIR$/OAuth/http.php" />
+        <option value="$PROJECT_DIR$/OAuth/OauthClient.php" />
       </list>
     </option>
   </component>
@@ -775,13 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="51" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalExtension.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="890" selection-end="890" vertical-scroll-proportion="-13.75">
@@ -791,7 +777,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="515" column="33" selection-start="14432" selection-end="14432" vertical-scroll-proportion="0.2515244">
+        <state line="1" column="43" selection-start="44" selection-end="49" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="23" selection-start="210" selection-end="210" vertical-scroll-proportion="0.16997167">
           <folding />
         </state>
       </provider>

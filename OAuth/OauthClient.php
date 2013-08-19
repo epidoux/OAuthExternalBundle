@@ -2,6 +2,7 @@
 
 namespace Epidoux\OAuthExternalBundle\OAuth;
 
+use Epidoux\OAuthExternalBundle\OAuth\http_class;
 /**
  @author Manuel Lemos (original)
  @author Eric Pidoux (adaptation for Symfony2)
