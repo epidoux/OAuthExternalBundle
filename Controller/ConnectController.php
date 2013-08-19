@@ -37,7 +37,11 @@ class ConnectController extends ContainerAware
                     //Flash msg error
                     $this->container->get('session')->getFlashBag()->add('error', "An error occured while authenticate on ".$connector->getName()." : ".$return);
                 }
-                else $this->container->get('session')->getFlashBag()->add('success', "Succefully connected on ".$connector->getName());
+                else{
+                    $this->container->get('session')->getFlashBag()->add('success', "Succefully connected on ".$connector->getName());
+                    //get profile
+                    $this->container->get('oauth.service')->
+                }
             }
         }
         return $this->container->get('templating')->renderResponse('EpidouxOAuthExternalBundle:Services:list.html.twig',

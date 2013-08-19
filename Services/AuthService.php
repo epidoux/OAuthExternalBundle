@@ -102,7 +102,10 @@ class AuthService {
                 {
                     if(strlen($connector->getClient()->access_token))
                     {
-                        $connector->getClient()->CallAPI();//TODO
+                        $user = "";
+                        $connector->getClient()->CallAPI('https://api.twitter.com/1.1/account/verify_credentials.json',
+                            'GET', array(), array('FailOnAccessError'=>true), $user);
+                        print_r($user);exit;
                     }
                 }
                 $returned_state = $connector->getClient()->Finalize($returned_state);
