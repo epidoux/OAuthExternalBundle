@@ -1165,6 +1165,7 @@ class OauthClient
 	Function Initialize($config)
 	{
         $this->server = $config['server'];
+        print_r($config);exit;
 		if(strlen($this->server) === 0)
 			return true;
 		$this->request_token_url = $config['request_token_url'];
