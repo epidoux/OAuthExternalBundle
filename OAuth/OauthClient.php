@@ -2,7 +2,7 @@
 
 namespace Epidoux\OAuthExternalBundle\OAuth;
 
-use Epidoux\OAuthExternalBundle\OAuth\http_class;
+use Epidoux\OAuthExternalBundle\OAuth\Http;
 /**
  @author Manuel Lemos (original)
  @author Eric Pidoux (adaptation for Symfony2)
@@ -624,7 +624,7 @@ class OauthClient
 	Function SendAPIRequest($url, $method, $parameters, $oauth, $options, &$response)
 	{
 		$this->response_status = 0;
-		$http = new http_class;
+		$http = new Http();
 		$http->debug = ($this->debug && $this->debug_http);
 		$http->log_debug = true;
 		$http->sasl_authenticate = 0;
