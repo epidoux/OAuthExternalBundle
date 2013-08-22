@@ -235,7 +235,7 @@
           <file leaf-file-name="AuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="110" column="85" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.6475771">
+                <state line="122" column="15" selection-start="4072" selection-end="4072" vertical-scroll-proportion="0.91189426">
                   <folding />
                 </state>
               </provider>
@@ -807,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="85" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.6475771">
+        <state line="122" column="15" selection-start="4072" selection-end="4072" vertical-scroll-proportion="0.91189426">
           <folding />
         </state>
       </provider>
