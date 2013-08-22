@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/AuthService.php" afterPath="$PROJECT_DIR$/Services/AuthService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +10,7 @@
     <file path="/a.dummy" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376906418696" ignored="false" />
     <file path="/.gitignore" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376248669071" ignored="false" />
     <file path="/services.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376314202174" ignored="false" />
-    <file path="/AuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377157879567" ignored="false" />
+    <file path="/AuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377161936101" ignored="false" />
     <file path="/AbstractConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376393968113" ignored="false" />
     <file path="/OAuth1Connector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376250289395" ignored="false" />
     <file path="/TwitterConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322087341" ignored="false" />
@@ -236,7 +235,7 @@
           <file leaf-file-name="AuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="116" column="128" selection-start="3766" selection-end="3766" vertical-scroll-proportion="0.71365637">
+                <state line="110" column="85" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.6475771">
                   <folding />
                 </state>
               </provider>
@@ -808,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="128" selection-start="3766" selection-end="3766" vertical-scroll-proportion="0.71365637">
+        <state line="110" column="85" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.6475771">
           <folding />
         </state>
       </provider>
