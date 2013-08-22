@@ -112,7 +112,10 @@ class AuthService {
                     $returned_state = $connector->getClient()->Finalize($returned_state);
                 }
             }
-            if(!$returned_state) $returned_state = $connector->getClient()->error;
+            if(!$returned_state){
+                $returned_state = $connector->getClient()->error;
+                $this->logger->err("Returned state for authentification process is negative : ".$connector->getClient()->error);
+            }
         }
         catch(Exception $e)
         {
