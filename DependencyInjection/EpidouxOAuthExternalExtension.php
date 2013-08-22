@@ -19,6 +19,7 @@ class EpidouxOAuthExternalExtension extends Extension
      */
     public function load(array $configs, ContainerBuilder $container)
     {
+        $debug = false;
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
@@ -26,7 +27,9 @@ class EpidouxOAuthExternalExtension extends Extension
 
         $container->setParameter('oauth.services', $config['services']);
         if(array_key_exists("callback_url",$config)) $container->setParameter("oauth.callback",$config['callback_url']);
+        if(array_key_exists("debug",$config)) $debug = $config['debug'];
 
+        $container->setParameter("oauth.debug",$debug);
     }
     public function getAlias()
     {

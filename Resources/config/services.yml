@@ -5,7 +5,7 @@ parameters:
 services:
      oauth.service:
         class: %oauth.class%
-        arguments: [%oauth.services%,%oauth.callback%,@logger,@oauth.factory.provider]
+        arguments: [%oauth.services%,%oauth.callback%,%oauth.debug%,@logger,@oauth.factory.provider]
 
      oauth.factory.provider:
         class: %oauth.provider_factory.class%

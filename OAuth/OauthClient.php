@@ -1179,7 +1179,7 @@ class OauthClient
         $this->access_token_url = array_key_exists("access_token_url",$config)?$config['access_token_url']:"";
         $this->offline_dialog_url = array_key_exists("offline_dialog_url",$config)?$config['offline_dialog_url']:"";
         $this->oauth_version = array_key_exists("oauth_version",$config)?$config['oauth_version']:"";
-
+        $this->debug = array_key_exists("debug",$config)?$config['debug']:false;
 		return(true);
 	}
 

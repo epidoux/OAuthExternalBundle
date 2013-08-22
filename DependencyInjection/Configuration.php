@@ -67,6 +67,7 @@ class Configuration implements ConfigurationInterface
 
        $rootNode
             ->children()
+                ->scalarNode('debug')->end()
                 ->scalarNode('callback_url')->isRequired()->end()
                 ->arrayNode('services')
                     ->isRequired()

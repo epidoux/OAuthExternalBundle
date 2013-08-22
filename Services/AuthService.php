@@ -31,10 +31,11 @@ class AuthService {
      * OAuth constructor
      * @param $services the services available and defined in config file
      * @param $callback the callback uri
+     * @param $debug the debug status
      * @param $logger the logger service
      * @param $providerFactory the factory of connectors
      */
-    public function __construct($services,$callback,$logger,$providerFactory)
+    public function __construct($services,$callback,$debug,$logger,$providerFactory)
     {
         $this->logger = $logger;
         $this->providerFactory = $providerFactory;
@@ -42,6 +43,7 @@ class AuthService {
         foreach($services as $name=>$service)
         {
             $connector = $this->providerFactory->createConnector($name,$service);
+            $connector->getClient()->debug=$debug;
             if(!empty($callback))
             {
                 $connector->setConfigElement('redirect_uri',$callback);
