@@ -85,33 +85,39 @@ class AuthService {
     public function processAuthentification($connector)
     {
         $returned_state = true;
-        //generate redirect_uri
-        $connector->redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].
-            dirname(strtok($_SERVER['REQUEST_URI'],'?'));
+        try{
+            //generate redirect_uri
+            $connector->redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].
+                dirname(strtok($_SERVER['REQUEST_URI'],'?'));
 
-        if(strlen($connector->getConfigElement("client_id")) == 0
-        || strlen($connector->getConfigElement("client_secret")) == 0){
-            $this->logger->err("Error while processing authentification of the connector named ".$connector->getName()." : The client id and secret must be set");
-            $returned_state = false;
-        }
-        else
-        {
-            if(($returned_state = $connector->getClient()->initialize($connector->getConfig())))
-            {
-                if(($returned_state = $connector->getClient()->Process()))
-                {
-                    if(strlen($connector->getClient()->access_token))
-                    {
-                        $user = "";
-                        $connector->getClient()->CallAPI('https://api.twitter.com/1.1/account/verify_credentials.json',
-                            'GET', array(), array('FailOnAccessError'=>true), $user);
-                        print_r($user);exit;
-                    }
-                }
-                $returned_state = $connector->getClient()->Finalize($returned_state);
+            if(strlen($connector->getConfigElement("client_id")) == 0
+            || strlen($connector->getConfigElement("client_secret")) == 0){
+                $this->logger->err("Error while processing authentification of the connector named ".$connector->getName()." : The client id and secret must be set");
+                $returned_state = false;
             }
+            else
+            {
+                if(($returned_state = $connector->getClient()->initialize($connector->getConfig())))
+                {
+                    if(($returned_state = $connector->getClient()->Process()))
+                    {
+                        if(strlen($connector->getClient()->access_token))
+                        {
+                            $user = "";
+                            $connector->getClient()->CallAPI('https://api.twitter.com/1.1/account/verify_credentials.json',
+                                'GET', array(), array('FailOnAccessError'=>true), $user);
+                            print_r($user);exit;
+                        }
+                    }
+                    $returned_state = $connector->getClient()->Finalize($returned_state);
+                }
+            }
+            if(!$returned_state) $returned_state = $connector->getClient()->error;
         }
-        if(!$returned_state) $returned_state = $connector->getClient()->error;
+        catch(Exception $e)
+        {
+            $this->logger->err("An exception was throwed while processing authentification: ".$e->getMessage(),$e);
+        }
 
         return $returned_state;
 

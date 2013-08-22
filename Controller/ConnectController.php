@@ -39,7 +39,7 @@ class ConnectController extends ContainerAware
                 }
                 else{
                     $this->container->get('session')->getFlashBag()->add('success', "Succefully connected on ".$connector->getName());
-                    
+
                 }
             }
         }
