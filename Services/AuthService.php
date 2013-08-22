@@ -122,7 +122,7 @@ class AuthService {
         }
         catch(\Exception $e)
         {
-            $this->logger->err("An exception was throwed while processing authentification: ".$e->getMessage(),$e);
+            $this->logger->err("An exception was throwed while processing authentification : ".$e->getCode()." : ".$e->getMessage());
         }
 
         return $returned_state;
