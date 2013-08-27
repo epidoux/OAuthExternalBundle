@@ -102,7 +102,7 @@ class AuthService {
                                 'GET', array(), array('FailOnAccessError'=>true), $user);
                             print_r($user);exit;
                         }
-                        else throw new \Exception("Can't access authentification token");
+                        //else throw new \Exception("Can't access authentification token");
                     }
                     else throw new \Exception("Can't process client authentification");
                     $returned_state = $connector->getClient()->Finalize($returned_state);
