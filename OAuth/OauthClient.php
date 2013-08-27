@@ -1188,6 +1188,7 @@ class OauthClient
         $this->offline_dialog_url = array_key_exists("offline_dialog_url",$config)?$config['offline_dialog_url']:"";
         $this->client_id = array_key_exists('client_id',$config)?$config['client_id']:"";
         $this->client_secret = array_key_exists("client_secret",$config)?$config['client_secret']:"";
+        $this->redirect_uri = array_key_exists("redirect_uri",$config)?$config['redirect_uri']:"";
         //$this->debug = array_key_exists("debug",$config)?$config['debug']:false;
 		return(true);
 	}

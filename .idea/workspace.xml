@@ -56,7 +56,7 @@
     <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
     <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
-    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377617839776" ignored="false" />
+    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377618989431" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
@@ -179,10 +179,10 @@
     <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Tests/Fixtures/xml/withdoctype.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
     <file path="/var/www/symfony/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/templating_url_package.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215565" ignored="false" />
     <file path="/OAuthExternalExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376647712163" ignored="false" />
-    <file path="/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377618744568" ignored="false" />
+    <file path="/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377619995214" ignored="false" />
     <file path="/http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376902376004" ignored="false" />
     <file path="/Http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909260152" ignored="false" />
-    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377616900313" ignored="false" />
+    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377618989431" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/Http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909637903" ignored="false" />
     <file path="/EpidouxOAuthExternalExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377169610459" ignored="false" />
     <file path="$PROJECT_DIR$/../InflexibleBundle/.gitignore" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377185146657" ignored="false" />
@@ -356,7 +356,7 @@
           <file leaf-file-name="OauthClient.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="1162" column="19" selection-start="44807" selection-end="44807" vertical-scroll-proportion="0.2997543">
+                <state line="1190" column="98" selection-start="46807" selection-end="46807" vertical-scroll-proportion="0.8157248">
                   <folding />
                 </state>
               </provider>
@@ -365,7 +365,7 @@
           <file leaf-file-name="TwitterConnector.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="20" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="-12.5">
+                <state line="19" column="44" selection-start="638" selection-end="638" vertical-scroll-proportion="-11.875">
                   <folding />
                 </state>
               </provider>
@@ -423,7 +423,7 @@
           <file leaf-file-name="AbstractConnector.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="142" column="48" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.83909416">
+                <state line="31" column="21" selection-start="626" selection-end="626" vertical-scroll-proportion="0.5542312">
                   <folding />
                 </state>
               </provider>
@@ -908,13 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="36" selection-start="675" selection-end="675" vertical-scroll-proportion="-12.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="35" selection-start="2699" selection-end="2699" vertical-scroll-proportion="-28.0">
@@ -931,14 +924,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="48" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.83909416">
+        <state line="31" column="21" selection-start="626" selection-end="626" vertical-scroll-proportion="0.5542312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="44" selection-start="638" selection-end="638" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1162" column="19" selection-start="44807" selection-end="44807" vertical-scroll-proportion="0.2997543">
+        <state line="1190" column="98" selection-start="46807" selection-end="46807" vertical-scroll-proportion="0.8157248">
           <folding />
         </state>
       </provider>
