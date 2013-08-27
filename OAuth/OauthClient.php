@@ -1172,6 +1172,7 @@ class OauthClient
     */
 	Function Initialize($config)
 	{
+
         $this->server = $config['server'];
 		if(strlen($this->server) === 0)
 			return true;

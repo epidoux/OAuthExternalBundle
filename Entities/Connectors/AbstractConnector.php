@@ -121,7 +121,7 @@ abstract class AbstractConnector {
      */
     public function setConfigElement($key,$value)
     {
-        if(array_key_exists($key,$this->config)) $this->config[$key] = $value;
+        if(array_key_exists($key,$this->config) && empty($this->config[$key])) $this->config[$key] = $value;
     }
 
     /**
