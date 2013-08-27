@@ -361,9 +361,14 @@ class OauthClient
 
 	var $session_started = false;
 
+    private $logger;
 
-    public function __construct()
+    /**
+     * @param $logger instance of sf2 monolog
+     */
+    public function __construct($logger)
     {
+        $this->logger = $logger;
 
     }
 
@@ -387,6 +392,8 @@ class OauthClient
 	{
 		if($this->debug)
 		{
+            //debug on monolog
+            if($this->logger!=null) $this->logger->debug("[OauthClient] ".$message);
 			$message = $this->debug_prefix.$message;
 			$this->debug_output .= $message."\n";;
 			error_log($message);

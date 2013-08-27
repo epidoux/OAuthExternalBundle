@@ -42,7 +42,7 @@ class AuthService {
 
         foreach($services as $name=>$service)
         {
-            $connector = $this->providerFactory->createConnector($name,$service);
+            $connector = $this->providerFactory->createConnector($name,$service,$this->logger);
             $connector->getClient()->debug=$debug;
             if(!empty($callback))
             {

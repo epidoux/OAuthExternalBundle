@@ -66,9 +66,10 @@ class ProviderFactory {
     /**
      * @param $name the unique connector name
      * @param $service array the service
+     * @param $logger instance of sf2 monolog
      * @return connector instance
      */
-    public function createConnector($name,$service)
+    public function createConnector($name,$service,$logger)
     {
         $classname = $this->connectorsName[$service['type']];
         $namespace = 'Epidoux\OAuthExternalBundle\Entities\Connectors';
@@ -77,7 +78,7 @@ class ProviderFactory {
         //Generate the url redirect path
         $connector->setName($name);
         $connector->setConfig($service);
-        $connector->setClient(new OauthClient());
+        $connector->setClient(new OauthClient($logger));
         return $connector;
     }
 
