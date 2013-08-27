@@ -139,6 +139,8 @@ abstract class AbstractConnector {
         if(array_key_exists("client_secret",$config)) $this->config['client_secret']=$config['client_secret'];
         if($this->config["scope"]=="" && array_key_exists("scope",$config)) $this->config['scope']=$config['scope'];
         if($this->config["api_key"]=="" && array_key_exists("api_key",$config)) $this->config['api_key']=$config['api_key'];
+        //restart client initialize
+        $this->getClient()->Initialize($this->config);
     }
 
 }
