@@ -19,6 +19,7 @@ class TwitterConnector extends OAuth1aConnector{
         $this->config['access_token_url']= 'https://api.twitter.com/oauth/access_token';
         $this->config['redirect_uri']="oob";
         $this->config['debug']=true;
+        $this->config['url_parameters']=true;
         $this->config['debug_http']=true;
     }
 
