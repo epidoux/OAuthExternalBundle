@@ -135,8 +135,8 @@ abstract class AbstractConnector {
         if($this->config["access_token_url"]=="" && array_key_exists("access_token_url",$config)) $this->config['access_token_url']=$config['access_token_url'];
         if($this->config["offline_dialog_url"]=="" && array_key_exists("offline_dialog_url",$config)) $this->config['offline_dialog_url']=$config['offline_dialog_url'];
         if($this->config["redirect_uri"]=="" && array_key_exists("redirect_uri",$config)) $this->config['redirect_uri']=$config['redirect_uri'];
-        if($this->config["client_id"]=="" && array_key_exists("client_id",$config)) $this->config['client_id']=$config['client_id'];
-        if($this->config["client_secret"]=="" && array_key_exists("client_secret",$config)) $this->config['client_secret']=$config['client_secret'];
+        if(array_key_exists("client_id",$config)) $this->config['client_id']=$config['client_id'];
+        if(array_key_exists("client_secret",$config)) $this->config['client_secret']=$config['client_secret'];
         if($this->config["scope"]=="" && array_key_exists("scope",$config)) $this->config['scope']=$config['scope'];
         if($this->config["api_key"]=="" && array_key_exists("api_key",$config)) $this->config['api_key']=$config['api_key'];
     }

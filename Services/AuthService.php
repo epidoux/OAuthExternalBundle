@@ -42,19 +42,11 @@ class AuthService {
 
         foreach($services as $name=>$service)
         {
+            if(empty($callback))$callback = 'http://'.$_SERVER['HTTP_HOST'].
+                dirname(strtok($_SERVER['REQUEST_URI'],'?'));
+            $service['redirect_uri']= $callback;
             $connector = $this->providerFactory->createConnector($name,$service,$this->logger);
             $connector->getClient()->debug=$debug;
-            if(!empty($callback))
-            {
-                $connector->setConfigElement('redirect_uri',$callback);
-            }
-            else
-            {
-                $url = 'http://'.$_SERVER['HTTP_HOST'].
-                    dirname(strtok($_SERVER['REQUEST_URI'],'?'));
-
-                $connector->setConfigElement('redirect_uri',$url);
-            }
 
             $this->connectors[$name] = $connector;
         }
