@@ -11,7 +11,7 @@
     <file path="/.gitignore" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377185146657" ignored="false" />
     <file path="/services.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377201102470" ignored="false" />
     <file path="/AuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377617034256" ignored="false" />
-    <file path="/AbstractConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377617926735" ignored="false" />
+    <file path="/AbstractConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377618143721" ignored="false" />
     <file path="/OAuth1Connector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376250289395" ignored="false" />
     <file path="/TwitterConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322087341" ignored="false" />
     <file path="/AmazonConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376294206367" ignored="false" />
@@ -423,7 +423,7 @@
           <file leaf-file-name="AbstractConnector.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="142" column="54" selection-start="4098" selection-end="4098" vertical-scroll-proportion="0.874851">
+                <state line="142" column="48" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.83909416">
                   <folding />
                 </state>
               </provider>
@@ -938,7 +938,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="54" selection-start="4098" selection-end="4098" vertical-scroll-proportion="0.874851">
+        <state line="142" column="48" selection-start="4092" selection-end="4092" vertical-scroll-proportion="0.83909416">
           <folding />
         </state>
       </provider>
