@@ -1335,7 +1335,7 @@ class OauthClient
 						$this->OutputDebug('Requesting the unauthorized OAuth token');
 					if(!$this->GetRequestTokenURL($url))
 						return false;
-					$url = str_replace('{SCOPE}', UrlEncode($this->scope), $url); 
+					$url = str_replace('{SCOPE}', UrlEncode($this->scope), $url);
 					if(!$this->GetRedirectURI($redirect_uri))
 						return false;
 					$oauth = array(
@@ -1357,6 +1357,8 @@ class OauthClient
 							$this->error = $method.' is not a supported method to request tokens';
 							break;
 					}
+                    if($this->debug)
+                        $this->OutputDebug('Send Api Request with method '.$method);
 					if(!$this->SendAPIRequest($url, $method, array(), $oauth, $options, $response))
 						return false;
 					if(strlen($this->access_token_error))
