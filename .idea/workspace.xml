@@ -4,11 +4,12 @@
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/AuthService.php" afterPath="$PROJECT_DIR$/Services/AuthService.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OAuth/OauthClient.php" afterPath="$PROJECT_DIR$/OAuth/OauthClient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Factories/ProviderFactory.php" afterPath="$PROJECT_DIR$/Factories/ProviderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php" afterPath="$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377592157192" ignored="false" />
+    <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377611665031" ignored="false" />
     <file path="/a.dummy" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377182302055" ignored="false" />
     <file path="/.gitignore" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377185146657" ignored="false" />
     <file path="/services.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377201102470" ignored="false" />
@@ -184,7 +185,7 @@
     <file path="/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377595710306" ignored="false" />
     <file path="/http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376902376004" ignored="false" />
     <file path="/Http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909260152" ignored="false" />
-    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377593362263" ignored="false" />
+    <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/OauthClient.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377596090151" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/OAuth/Http.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376909637903" ignored="false" />
     <file path="/EpidouxOAuthExternalExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377169610459" ignored="false" />
     <file path="$PROJECT_DIR$/../InflexibleBundle/.gitignore" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377185146657" ignored="false" />
@@ -307,7 +308,7 @@
     <favorites_list name="OAuthExternalBundle" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.8298069">
+    <splitter split-orientation="horizontal" split-proportion="0.46028513">
       <split-first>
         <leaf>
           <file leaf-file-name="EpidouxOAuthExternalExtension.php" pinned="false" current="false" current-in-tab="false">
@@ -328,24 +329,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AuthService.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="44" column="93" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-10.625">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ProviderFactory.php" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="68" column="45" selection-start="2288" selection-end="2288" vertical-scroll-proportion="-18.416666">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Configuration.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/DependencyInjection/Configuration.php">
               <provider selected="true" editor-type-id="text-editor">
@@ -355,19 +338,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="OauthClient.php" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="395" column="74" selection-start="14827" selection-end="14827" vertical-scroll-proportion="0.27890345">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="Http.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/OAuth/Http.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="23" selection-start="1195" selection-end="1195" vertical-scroll-proportion="369.39505">
+                <state line="41" column="23" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -376,7 +350,43 @@
           <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-0.625">
+                <state line="41" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OauthClient.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="1186" column="50" selection-start="46449" selection-end="46449" vertical-scroll-proportion="-17.25">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwitterConnector.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="19" column="35" selection-start="629" selection-end="629" vertical-scroll-proportion="-11.875">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProviderFactory.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="68" column="45" selection-start="2288" selection-end="2288" vertical-scroll-proportion="-42.5">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AuthService.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="126" column="168" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.80735105">
                   <folding />
                 </state>
               </provider>
@@ -395,19 +405,28 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
+          <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.10739857">
+                <state line="7" column="67" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="services.yml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
+          <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="7" column="67" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+                <state line="7" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractConnector.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="42" column="25" selection-start="975" selection-end="975" vertical-scroll-proportion="0.2951389">
                   <folding />
                 </state>
               </provider>
@@ -433,7 +452,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/DependencyInjection/epidouxOAuthExternalBundleExtension.php" />
         <option value="$PROJECT_DIR$/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalBundleExtension.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/OAuthExternalExtension.php" />
@@ -445,17 +463,17 @@
         <option value="$PROJECT_DIR$/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalExtension.php" />
         <option value="/var/www/mb.html" />
-        <option value="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" />
         <option value="$PROJECT_DIR$/Factories/ProviderFactory.php" />
-        <option value="$PROJECT_DIR$/Services/AuthService.php" />
+        <option value="$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php" />
+        <option value="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" />
         <option value="$PROJECT_DIR$/OAuth/OauthClient.php" />
+        <option value="$PROJECT_DIR$/Services/AuthService.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="y" value="-4" />
+    <option name="y" value="24" />
     <option name="width" value="1922" />
     <option name="height" value="1085" />
   </component>
@@ -485,7 +503,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -638,6 +655,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Connectors" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="DependencyInjection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -658,6 +693,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -716,7 +752,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-4" width="1922" height="1085" extended-state="6" />
+    <frame x="0" y="24" width="1922" height="1085" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -724,7 +760,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24930939" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20962566" sideWeight="0.9699248" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21229947" sideWeight="0.9699248" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -800,16 +836,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpidouxOAuthExternalBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="103" selection-end="103" vertical-scroll-proportion="0.108827084" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
@@ -850,30 +876,16 @@
         <state line="8" column="54" selection-start="403" selection-end="403" vertical-scroll-proportion="0.02124646" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.10739857">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/Http.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="23" selection-start="1195" selection-end="1195" vertical-scroll-proportion="369.39505">
+        <state line="41" column="23" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="33" selection-start="671" selection-end="671" vertical-scroll-proportion="-1.4858357">
+        <state line="41" column="0" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -885,23 +897,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
+    <entry file="file://$PROJECT_DIR$/Entities/Connectors/OAuth1aConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="45" selection-start="2288" selection-end="2288" vertical-scroll-proportion="-18.416666">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
+    <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="93" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-10.625">
+        <state line="7" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="25" selection-start="975" selection-end="975" vertical-scroll-proportion="0.2951389">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="45" selection-start="2288" selection-end="2288" vertical-scroll-proportion="-42.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="629" selection-end="629" vertical-scroll-proportion="-11.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OAuth/OauthClient.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="395" column="74" selection-start="14827" selection-end="14827" vertical-scroll-proportion="0.27890345">
+        <state line="1186" column="50" selection-start="46449" selection-end="46449" vertical-scroll-proportion="-17.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/AuthService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="168" selection-start="4378" selection-end="4378" vertical-scroll-proportion="0.80735105">
           <folding />
         </state>
       </provider>

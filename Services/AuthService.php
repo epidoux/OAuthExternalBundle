@@ -89,8 +89,8 @@ class AuthService {
         $returned_state = true;
         try{
             //generate redirect_uri
-            $connector->redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].
-                dirname(strtok($_SERVER['REQUEST_URI'],'?'));
+            //$connector->redirect_uri = 'http://'.$_SERVER['HTTP_HOST'].
+              //  dirname(strtok($_SERVER['REQUEST_URI'],'?'));
 
             if(strlen($connector->getConfigElement("client_id")) == 0
             || strlen($connector->getConfigElement("client_secret")) == 0){
@@ -124,12 +124,9 @@ class AuthService {
         }
         catch(\Exception $e)
         {
-            $this->logger->err("An exception was throwed while processing authentification : ".$e->getCode()." : ".$e->getMessage());
+            $this->logger->err("An exception was throwed while processing authentification : ".$e->getCode()." : ".$e->getMessage()." : ".$connector->getClient()->error);
 
-            $this->logger->info("Output error while processing information : ".$connector->getClient()->debug_output);
         }
-
-        $this->logger->info("Output debug while processing information : ".$connector->getClient()->debug_output);
         return $returned_state;
 
     }

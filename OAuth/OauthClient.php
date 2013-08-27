@@ -1505,72 +1505,70 @@ class OauthClient
 		|| strlen($this->access_token_error)
 		|| strlen($this->access_token))
 		{
-?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<title>OAuth client result</title>
-</head>
-<body>
-<h1>OAuth client result</h1>
-<?php
-			if(strlen($this->authorization_error))
-			{
-?>
-<p>It was not possible to authorize the application.<?php
-				if($this->debug)
-				{
-?>
-<br>Authorization error: <?php echo HtmlSpecialChars($this->authorization_error);
-				}
-?></p>
-<?php
-			}
-			elseif(strlen($this->access_token_error))
-			{
-?>
-<p>It was not possible to use the application access token.
-<?php
-				if($this->debug)
-				{
-?>
-<br>Error: <?php echo HtmlSpecialChars($this->access_token_error);
-				}
-?></p>
-<?php
-			}
-			elseif(strlen($this->access_token))
-			{
-?>
-<p>The application authorization was obtained successfully.
-<?php
-				if($this->debug)
-				{
-?>
-<br>Access token: <?php echo HtmlSpecialChars($this->access_token);
-					if(IsSet($this->access_token_secret))
-					{
-?>
-<br>Access token secret: <?php echo HtmlSpecialChars($this->access_token_secret);
-					}
-				}
-?></p>
-<?php
-				if(strlen($this->access_token_expiry))
-				{
-?>
-<p>Access token expiry: <?php echo $this->access_token_expiry; ?> UTC</p>
-<?php
-				}
-			}
-?>
-</body>
-</html>
-<?php
-		}
-	}
+            ?>
+            <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+            <html>
+            <head>
+            <title>OAuth client result</title>
+            </head>
+            <body>
+            <h1>OAuth client result</h1>
+            <?php
+                        if(strlen($this->authorization_error))
+                        {
+            ?>
+            <p>It was not possible to authorize the application.<?php
+                            if($this->debug)
+                            {
+            ?>
+            <br>Authorization error: <?php echo HtmlSpecialChars($this->authorization_error);
+                            }
+            ?></p>
+            <?php
+                        }
+                        elseif(strlen($this->access_token_error))
+                        {
+            ?>
+            <p>It was not possible to use the application access token.
+            <?php
+                            if($this->debug)
+                            {
+            ?>
+            <br>Error: <?php echo HtmlSpecialChars($this->access_token_error);
+                            }
+            ?></p>
+            <?php
+                        }
+                        elseif(strlen($this->access_token))
+                        {
+            ?>
+            <p>The application authorization was obtained successfully.
+            <?php
+                            if($this->debug)
+                            {
+            ?>
+            <br>Access token: <?php echo HtmlSpecialChars($this->access_token);
+                                if(IsSet($this->access_token_secret))
+                                {
+            ?>
+            <br>Access token secret: <?php echo HtmlSpecialChars($this->access_token_secret);
+                                }
+                            }
+            ?></p>
+            <?php
+                            if(strlen($this->access_token_expiry))
+                            {
+            ?>
+            <p>Access token expiry: <?php echo $this->access_token_expiry; ?> UTC</p>
+            <?php
+                            }
+                        }
+            ?>
+            </body>
+            </html>
+            <?php
+                    }
+                }
 
-};
+    };
 
-
-?>
