@@ -87,12 +87,12 @@ class OauthClient
     /**
     * Control whether debug output is enabled
     */
-	var $debug = false;
+	var $debug = true;
 
     /**
     *Control whether the dialog with the remote Web server should also be logged.
     */
-	var $debug_http = false;
+	var $debug_http = true;
 
     /**
     *Determine if the current script should be exited.
@@ -1179,7 +1179,7 @@ class OauthClient
         $this->access_token_url = array_key_exists("access_token_url",$config)?$config['access_token_url']:"";
         $this->offline_dialog_url = array_key_exists("offline_dialog_url",$config)?$config['offline_dialog_url']:"";
         $this->oauth_version = array_key_exists("oauth_version",$config)?$config['oauth_version']:"";
-        $this->debug = array_key_exists("debug",$config)?$config['debug']:false;
+        //$this->debug = array_key_exists("debug",$config)?$config['debug']:false;
 		return(true);
 	}
 

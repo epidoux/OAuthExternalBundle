@@ -125,9 +125,11 @@ class AuthService {
         catch(\Exception $e)
         {
             $this->logger->err("An exception was throwed while processing authentification : ".$e->getCode()." : ".$e->getMessage());
-        }
-        $this->logger->info("Output error while processing information : ".$connector->getClient()->debug_output);
 
+            $this->logger->info("Output error while processing information : ".$connector->getClient()->debug_output);
+        }
+
+        $this->logger->info("Output debug while processing information : ".$connector->getClient()->debug_output);
         return $returned_state;
 
     }
