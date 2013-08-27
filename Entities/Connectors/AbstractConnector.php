@@ -30,7 +30,7 @@ abstract class AbstractConnector {
         "append_state_to_redirect_uri"=>'',
         "authorization_header"=>true,
         "url_parameters"=>false,
-        "token_request_method=>'GET",
+        "token_request_method"=>"GET",
         "signature_method"=>'HMAC-SHA1',
         "oauth_version"=>'',
         "request_token_url"=>"",
