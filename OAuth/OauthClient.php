@@ -1185,7 +1185,6 @@ class OauthClient
         $this->dialog_url = array_key_exists("dialog_url",$config)?$config['dialog_url']:"";
         $this->access_token_url = array_key_exists("access_token_url",$config)?$config['access_token_url']:"";
         $this->offline_dialog_url = array_key_exists("offline_dialog_url",$config)?$config['offline_dialog_url']:"";
-        $this->oauth_version = array_key_exists("oauth_version",$config)?$config['oauth_version']:"";
         //$this->debug = array_key_exists("debug",$config)?$config['debug']:false;
 		return(true);
 	}
@@ -1200,6 +1199,28 @@ class OauthClient
     */
 	Function Process()
 	{
+        if($this->debug){
+            $this->OutputDebug("Process authentification to ".$this->server." with params : ".
+                    "request_token_url => ".$this->request_token_url." // ".
+                    "append_state_to_redirect_uri => ".$this->append_state_to_redirect_uri." // ".
+                    "authorization_header => ".$this->authorization_header." // ".
+                    "url_parameters => ".$this->url_parameters." // ".
+                    "token_request_method => ".$this->token_request_method." // ".
+                    "signature_method => ".$this->signature_method." // ".
+                    "oauth_version => ".$this->oauth_version." // ".
+                    "request_token_url => ".$this->request_token_url." // ".
+                    "dialog_url => ".$this->dialog_url." // ".
+                    "access_token_url => ".$this->access_token_url." // ".
+                    "offline_dialog_url => ".$this->offline_dialog_url." // ".
+                    "offline => ".$this->offline." // ".
+                    "redirect_uri => ".$this->redirect_uri." // ".
+                    "client_id => ".$this->client_id." // ".
+                    "client_secret => ".$this->client_secret." // ".
+                    "scope => ".$this->scope." // ".
+                    "api_key => ".$this->api_key
+
+            );
+        }
 		switch(intval($this->oauth_version))
 		{
 			case 1:
