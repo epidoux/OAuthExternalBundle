@@ -1186,6 +1186,8 @@ class OauthClient
         $this->dialog_url = array_key_exists("dialog_url",$config)?$config['dialog_url']:"";
         $this->access_token_url = array_key_exists("access_token_url",$config)?$config['access_token_url']:"";
         $this->offline_dialog_url = array_key_exists("offline_dialog_url",$config)?$config['offline_dialog_url']:"";
+        $this->client_id = array_key_exists('client_id',$config)?$config['client_id']:"";
+        $this->client_secret = array_key_exists("client_secret",$config)?$config['client_secret']:"";
         //$this->debug = array_key_exists("debug",$config)?$config['debug']:false;
 		return(true);
 	}
