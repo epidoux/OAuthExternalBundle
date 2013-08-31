@@ -11,16 +11,13 @@
         </div>
     {% endfor %}
 {% endfor %}
-{% block hybridauth_content %}
-        <div class="services">
-            {% for service in services %}
-                <div class="service">
-                    <a href="?provider={{ service.name }}" class="social {{ service.type }}">{{ service.name }}</a><br/>
-                </div>
-
-            {% endfor %}
+<div class="services">
+    {% for service in services %}
+        <div class="service">
+            <a href="{{ path('oauthexternal_connect',{'connectorName':service.name}) }}" class="social {{ service.type }}">{{ service.name }}</a><br/>
         </div>
 
-{% endblock %}
+    {% endfor %}
+</div>
 </body>
 </html>

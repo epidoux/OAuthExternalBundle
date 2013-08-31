@@ -26,7 +26,7 @@ class ConnectController extends ContainerAware
         $info=array();
         //get all services array(name=>array(token,secret),...)
         $services = $this->container->get('connector.service')->getConnectors();
-        if($request->get('provider')!="")
+        /*if($request->get('provider')!="")
         {
             $connector = $this->container->get('connector.service')->getConnector($request->get('provider'));
             if($connector != null)
@@ -42,7 +42,7 @@ class ConnectController extends ContainerAware
 
                 }
             }
-        }
+        }*/
         return $this->container->get('templating')->renderResponse('EpidouxOAuthExternalBundle:Services:list.html.twig',
             array(
                 "services"=>$services
