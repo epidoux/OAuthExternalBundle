@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/OAuthService.php" afterPath="$PROJECT_DIR$/Services/OAuthService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Factories/ProviderFactory.php" afterPath="$PROJECT_DIR$/Factories/ProviderFactory.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -290,7 +289,7 @@
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
     <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377766610268" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
-    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377985155457" ignored="false" />
+    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377986471701" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +308,7 @@
     <favorites_list name="OAuthExternalBundle" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49794802">
+    <splitter split-orientation="horizontal" split-proportion="0.38508892">
       <split-first>
         <leaf>
           <file leaf-file-name="EpidouxOAuthExternalExtension.php" pinned="false" current="false" current-in-tab="false">
@@ -330,10 +329,19 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="24" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.055555556">
+                <state line="45" column="33" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-8.75">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TwitterConnector.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="18" column="39" selection-start="528" selection-end="544" vertical-scroll-proportion="0.34394905">
                   <folding />
                 </state>
               </provider>
@@ -418,7 +426,7 @@
           <file leaf-file-name="OAuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="38" column="12" selection-start="915" selection-end="915" vertical-scroll-proportion="0.5901235">
+                <state line="44" column="44" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.5345679">
                   <folding />
                 </state>
               </provider>
@@ -919,13 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="37" selection-start="673" selection-end="673" vertical-scroll-proportion="0.39473686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-81.875">
@@ -940,13 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="24" selection-start="1202" selection-end="1202" vertical-scroll-proportion="0.055555556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="7" selection-start="752" selection-end="752" vertical-scroll-proportion="-6.875">
@@ -954,9 +948,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="33" selection-start="1768" selection-end="1768" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="39" selection-start="528" selection-end="544" vertical-scroll-proportion="0.34394905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="915" selection-end="915" vertical-scroll-proportion="0.5901235">
+        <state line="44" column="44" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.5345679">
           <folding />
         </state>
       </provider>
