@@ -289,6 +289,7 @@
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
     <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377766610268" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
+    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377983713224" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +308,7 @@
     <favorites_list name="OAuthExternalBundle" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5841313">
+    <splitter split-orientation="horizontal" split-proportion="0.34473324">
       <split-first>
         <leaf>
           <file leaf-file-name="EpidouxOAuthExternalExtension.php" pinned="false" current="false" current-in-tab="false">
@@ -340,7 +341,7 @@
           <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.80246913">
+                <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.79605263">
                   <folding />
                 </state>
               </provider>
@@ -443,7 +444,7 @@
           <file leaf-file-name="OAuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.84713376">
+                <state line="35" column="65" selection-start="788" selection-end="788" vertical-scroll-proportion="0.52612394">
                   <folding />
                 </state>
               </provider>
@@ -974,14 +975,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.80246913">
+        <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.79605263">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.84713376">
+        <state line="35" column="65" selection-start="788" selection-end="788" vertical-scroll-proportion="0.52612394">
           <folding />
         </state>
       </provider>

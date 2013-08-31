@@ -32,7 +32,9 @@ class OAuthService {
      */
     public function getRequestToken($connector)
     {
-        $request_token = $connector->getClient()->getRequestToken( $connector->getConfigElement("request_token_url"), $connector->getConfigElement("redirect_uri") );
+        $url = $connector->getConfigElement("request_token_url");
+        $redirect = $connector->getConfigElement("redirect_uri");
+        $request_token = $connector->getClient()->getRequestToken( $url, $redirect );
         print_r($request_token);exit;
         //prepare data for url
         switch(intval($connector->getConfigElement("oauth_version")))
