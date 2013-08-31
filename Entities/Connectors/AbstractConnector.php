@@ -160,4 +160,8 @@ abstract class AbstractConnector {
     /**
      * Edit token
      */
+    public function setToken($token)
+    {
+        $this->token = $token;
+    }
 }
