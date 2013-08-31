@@ -78,7 +78,6 @@ class ProviderFactory {
         //Generate the url redirect path
         $connector->setName($name);
         $connector->setConfig($service);
-        $connector->setClient(new OauthClient($logger));
         return $connector;
     }
 
