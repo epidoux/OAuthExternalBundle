@@ -18,9 +18,9 @@ class TwitterConnector extends OAuth1aConnector{
         $this->config['dialog_url']= 'https://api.twitter.com/oauth/authenticate';
         $this->config['access_token_url']= 'https://api.twitter.com/oauth/access_token';
         $this->config['redirect_uri']="";
-        $this->config['debug']=true;
-        $this->config['url_parameters']=true;
-        $this->config['debug_http']=true;
+        $this->config['debug']= true;
+        $this->config['url_parameters']= true;
+        $this->config['debug_http']= true;
     }
 
     /**
@@ -38,3 +38,4 @@ class TwitterConnector extends OAuth1aConnector{
         'nickname' => 'screen_name',
         'realname' => 'name',
     );*/
+}
