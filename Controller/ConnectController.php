@@ -25,14 +25,14 @@ class ConnectController extends ContainerAware
     {
         $info=array();
         //get all services array(name=>array(token,secret),...)
-        $services = $this->container->get('oauth.service')->getConnectors();
+        $services = $this->container->get('connector.service')->getConnectors();
         if($request->get('provider')!="")
         {
-            $connector = $this->container->get('oauth.service')->getConnector($request->get('provider'));
+            $connector = $this->container->get('connector.service')->getConnector($request->get('provider'));
             if($connector != null)
             {
                 //authenticate into it
-               $return =  $this->container->get('oauth.service')->processAuthentification($connector);
+               $return =  $this->container->get('connector.service')->processAuthentification($connector);
                 if(!$return){
                     //Flash msg error
                     $this->container->get('session')->getFlashBag()->add('error', "An error occured while authenticate on ".$connector->getName()." : ".$return);
@@ -49,6 +49,30 @@ class ConnectController extends ContainerAware
             )
         );
     }
+
+    /**
+     * Request the token
+     * @param Request $request
+     * @return the view
+     */
+    public function connectAction($connectorName)
+    {
+        //request token and if already connected redirect on view or redirect on service
+        $connector = $this->container->get('connector.service')->getConnector($connectorName);
+
+        $returned = $this->container->get('oauth.service')->getRequestToken($connector);
+    }
+
+    /**
+     * Callback endpoint connector
+     * @param Request $request
+     * @return the view or redirection
+     */
+    public function callbackAction(Request $request)
+    {
+
+    }
+
 
     /**
      * Display the button provider

@@ -17,9 +17,14 @@ abstract class AbstractConnector {
     protected $name;
 
     /**
-     * @var OauthClient $client
+     * @var OAuth $client
      */
     protected $client;
+
+    /**
+     * @var token OAuth
+     */
+    protected $token;
 
     /**
      * @var array configuration
@@ -72,12 +77,13 @@ abstract class AbstractConnector {
      */
     public function getClient()
     {
+        if($this->client == null) $this->client = new \OAuth($this->config['client_id'],$this->config['client_secret'],OAUTH_SIG_METHOD_HMACSHA1,OAUTH_AUTH_TYPE_URI);
         return $this->client;
     }
 
     /**
      * Edit the client
-     * @param $client OauthClient instance
+     * @param $client Oauth instance
      */
     public function setClient($client)
     {
@@ -139,8 +145,19 @@ abstract class AbstractConnector {
         if(array_key_exists("client_secret",$config)) $this->config['client_secret']=$config['client_secret'];
         if($this->config["scope"]=="" && array_key_exists("scope",$config)) $this->config['scope']=$config['scope'];
         if($this->config["api_key"]=="" && array_key_exists("api_key",$config)) $this->config['api_key']=$config['api_key'];
-        //restart client initialize
-        if($this->getClient()!=null)$this->getClient()->Initialize($this->config);
+
+        $this->client = new \OAuth($this->config['client_id'],$this->config['client_secret'],OAUTH_SIG_METHOD_HMACSHA1,OAUTH_AUTH_TYPE_URI);
     }
 
+    /**
+     * Return the token
+     */
+    public function getToken()
+    {
+        return $this->token;
+    }
+
+    /**
+     * Edit token
+     */
 }
