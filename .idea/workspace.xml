@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Services/AuthService.php" afterPath="$PROJECT_DIR$/Services/OAuthService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/OAuthService.php" afterPath="$PROJECT_DIR$/Services/OAuthService.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -337,10 +337,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="-27.083334">
+                <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.80246913">
                   <folding />
                 </state>
               </provider>
@@ -364,10 +364,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="0.2962963">
+                <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="-10.0">
                   <folding />
                 </state>
               </provider>
@@ -443,7 +443,7 @@
           <file leaf-file-name="OAuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="18" selection-start="215" selection-end="227" vertical-scroll-proportion="0.21019109">
+                <state line="53" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.84713376">
                   <folding />
                 </state>
               </provider>
@@ -469,7 +469,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/OAuth/http.php" />
         <option value="$PROJECT_DIR$/OAuth/Http.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalExtension.php" />
@@ -485,6 +484,7 @@
         <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
         <option value="$PROJECT_DIR$/Resources/views/Services/list.html.twig" />
         <option value="$PROJECT_DIR$/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/Services/OAuthService.php" />
       </list>
     </option>
   </component>
@@ -958,16 +958,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="-27.083334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="0.2962963">
+        <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
@@ -979,9 +972,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="48" selection-start="2089" selection-end="2089" vertical-scroll-proportion="0.80246913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="215" selection-end="227" vertical-scroll-proportion="0.21019109">
+        <state line="53" column="5" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.84713376">
           <folding />
         </state>
       </provider>
