@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/views/Services/list.html.twig" afterPath="$PROJECT_DIR$/Resources/views/Services/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/Resources/config/routing.yml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
@@ -366,10 +364,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="list.html.twig" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="list.html.twig" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="12" selection-start="361" selection-end="361" vertical-scroll-proportion="0.2777778">
+                <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="0.2962963">
                   <folding />
                 </state>
               </provider>
@@ -415,10 +413,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="routing.yml" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="5" column="21" selection-start="121" selection-end="142" vertical-scroll-proportion="0.091240875">
+                <state line="6" column="44" selection-start="188" selection-end="188" vertical-scroll-proportion="0.10948905">
                   <folding />
                 </state>
               </provider>
@@ -485,8 +483,8 @@
         <option value="$PROJECT_DIR$/Services/AuthService.php" />
         <option value="$PROJECT_DIR$/Entities/Connectors/TwitterConnector.php" />
         <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
-        <option value="$PROJECT_DIR$/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/Resources/views/Services/list.html.twig" />
+        <option value="$PROJECT_DIR$/Resources/config/routing.yml" />
       </list>
     </option>
   </component>
@@ -974,16 +972,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
+    <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="121" selection-end="142" vertical-scroll-proportion="0.091240875">
+        <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="0.2962963">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
+    <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="12" selection-start="361" selection-end="361" vertical-scroll-proportion="0.2777778">
+        <state line="6" column="44" selection-start="188" selection-end="188" vertical-scroll-proportion="0.10948905">
           <folding />
         </state>
       </provider>

@@ -4,5 +4,5 @@ oauthexternal_list:
 
 
 oauthexternal_connect:
-    pattern: /service/connect/{connector}
+    pattern: /service/connect/{connectorName}
     defaults: { _controller: EpidouxOAuthExternalBundle:Connect:connect }
