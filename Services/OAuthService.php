@@ -37,7 +37,12 @@ class OAuthService {
             $redirect = $connector->getConfigElement("redirect_uri");
             $this->logger->debug("Requesting token on ".$url." with callback : ".$redirect);
             $request_token = $connector->getClient()->getRequestToken( $url, $redirect );
-            print_r($request_token);exit;
+
+            throw new \OAuthException("Failed fetching request token, response was: " . $oauth->getLastResponse());
+            if(!empty($request_token)) {
+                print_r($request_token);exit;
+            } else {
+            }
             //prepare data for url
             switch(intval($connector->getConfigElement("oauth_version")))
             {
