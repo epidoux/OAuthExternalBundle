@@ -36,8 +36,8 @@ class OAuthService {
             $url = $connector->getConfigElement("request_token_url");
             $redirect = $connector->getConfigElement("redirect_uri");
             $this->logger->debug("Requesting token on ".$url." with callback : ".$redirect);
+            print_r($connector->getClient());exit;
             $request_token = $connector->getClient()->getRequestToken( $url);
-
             if(!empty($request_token)) {
                 print_r($request_token);print_r($connector->getClient());exit;
             } else {

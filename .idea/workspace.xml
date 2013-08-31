@@ -289,7 +289,7 @@
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
     <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377766610268" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
-    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377985008436" ignored="false" />
+    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377985155457" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +390,7 @@
           <file leaf-file-name="AbstractConnector.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-72.5">
+                <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-76.25">
                   <folding />
                 </state>
               </provider>
@@ -444,7 +444,7 @@
           <file leaf-file-name="OAuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="73" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.645679">
+                <state line="38" column="50" selection-start="953" selection-end="953" vertical-scroll-proportion="0.5901235">
                   <folding />
                 </state>
               </provider>
@@ -975,14 +975,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-72.5">
+        <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-76.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="73" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.645679">
+        <state line="38" column="50" selection-start="953" selection-end="953" vertical-scroll-proportion="0.5901235">
           <folding />
         </state>
       </provider>
