@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" afterPath="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/OAuthService.php" afterPath="$PROJECT_DIR$/Services/OAuthService.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
@@ -290,7 +289,7 @@
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
     <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377766610268" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
-    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377984013783" ignored="false" />
+    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377984392751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -445,7 +444,7 @@
           <file leaf-file-name="OAuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="36" column="75" selection-start="864" selection-end="864" vertical-scroll-proportion="0.54434997">
+                <state line="51" column="108" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.81773996">
                   <folding />
                 </state>
               </provider>
@@ -983,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="75" selection-start="864" selection-end="864" vertical-scroll-proportion="0.54434997">
+        <state line="51" column="108" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.81773996">
           <folding />
         </state>
       </provider>

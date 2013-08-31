@@ -32,18 +32,24 @@ class OAuthService {
      */
     public function getRequestToken($connector)
     {
-        $url = $connector->getConfigElement("request_token_url");
-        $redirect = $connector->getConfigElement("redirect_uri");
-        $this->logger->debug("Requesting token on ".$url." with callback : ".$redirect);
-        $request_token = $connector->getClient()->getRequestToken( $url, $redirect );
-        print_r($request_token);exit;
-        //prepare data for url
-        switch(intval($connector->getConfigElement("oauth_version")))
+        try{
+            $url = $connector->getConfigElement("request_token_url");
+            $redirect = $connector->getConfigElement("redirect_uri");
+            $this->logger->debug("Requesting token on ".$url." with callback : ".$redirect);
+            $request_token = $connector->getClient()->getRequestToken( $url, $redirect );
+            print_r($request_token);exit;
+            //prepare data for url
+            switch(intval($connector->getConfigElement("oauth_version")))
+            {
+                case 1:
+                    break;
+                case 2:
+                    break;
+            }
+        }
+        catch(\OAuthException $e)
         {
-            case 1:
-                break;
-            case 2:
-                break;
+            $this->logger->err("Failed to request token for ".$connector->getName()." : ".$e->getMessage());
         }
         return $connector->getConfigElement('dialog_url').$request_token['oauth_token_secret'];
     }
