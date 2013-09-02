@@ -58,6 +58,7 @@ class OAuthService {
         catch(\OAuthException $e)
         {
             $this->logger->err("Failed to request token for ".$connector->getName()." : ".$e->getMessage());
+            throw new \Exception("Failed to request token for ".$connector->getName()." because of ".$e->getMessage());
         }
         return $connector->getConfigElement('dialog_url').$request_token['oauth_token_secret'];
     }
