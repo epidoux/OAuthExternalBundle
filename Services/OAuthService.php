@@ -38,6 +38,9 @@ class OAuthService {
             $this->logger->debug("Requesting token on ".$url." with callback : ".$redirect);
 
             $request_token = $connector->getClient()->getRequestToken( $url,$redirect);
+
+            echo $connector->getConfigElement('dialog_url').'?oauth_token='.$request_token['oauth_token'];exit;
+
             if(!empty($request_token)) {
                 //access token
                 $connector->getClient()->setToken($request_token["oauth_token"],$request_token["oauth_token_secret"]);

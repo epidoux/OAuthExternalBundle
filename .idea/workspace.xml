@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/OAuthService.php" afterPath="$PROJECT_DIR$/Services/OAuthService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -290,7 +289,7 @@
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
     <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377766610268" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
-    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378126316133" ignored="false" />
+    <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378128429376" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,7 +381,7 @@
           <file leaf-file-name="OAuthService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="60" column="119" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.7777778">
+                <state line="41" column="111" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.42592594">
                   <folding />
                 </state>
               </provider>
@@ -427,7 +426,7 @@
           <file leaf-file-name="AbstractConnector.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="0.0">
+                <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-28.75">
                   <folding />
                 </state>
               </provider>
@@ -860,7 +859,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/OAuth1Connector.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="36" selection-start="278" selection-end="291" vertical-scroll-proportion="0.24436091" />
+        <state line="13" column="36" selection-start="278" selection-end="291" vertical-scroll-proportion="0.24436091">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalExtension.php">
@@ -922,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Entities/Connectors/GoogleConnector.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="16" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0">
@@ -957,9 +951,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="164" column="30" selection-start="4595" selection-end="4595" vertical-scroll-proportion="-28.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Services/OAuthService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="119" selection-start="2044" selection-end="2044" vertical-scroll-proportion="0.7777778">
+        <state line="41" column="111" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.42592594">
           <folding />
         </state>
       </provider>
