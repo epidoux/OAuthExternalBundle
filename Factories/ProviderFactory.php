@@ -50,7 +50,7 @@ class ProviderFactory {
             'oob'
         );//$currentUri->getAbsoluteUri()
         $serviceFactory = new \OAuth\ServiceFactory();
-        $serviceFactory->setHttpClient(new CurlClient());
+        //$serviceFactory->setHttpClient(new CurlClient());
         $client = $serviceFactory->createService($service["type"], $credentials, $storage);
 
         $connector->setService($client);
