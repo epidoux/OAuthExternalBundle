@@ -43,7 +43,7 @@ class ConnectController extends ContainerAware
         //request token and if already connected redirect on view or redirect on service
         $connector = $this->container->get('connector.service')->getConnector($request->get('connectorName'),$request);
 
-        $result = $this->container->get('connector.service')->connect($connector);
+        $result = $this->container->get('connector.service')->connect($connector,$request);
 
         return new Response($result);
     }
