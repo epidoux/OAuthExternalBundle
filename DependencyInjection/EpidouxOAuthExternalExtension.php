@@ -26,10 +26,10 @@ class EpidouxOAuthExternalExtension extends Extension
         $loader->load('services.yml');
 
         $container->setParameter('oauth.services', $config['services']);
-        if(array_key_exists("callback_url",$config)) $container->setParameter("oauth.callback",$config['callback_url']);
-        if(array_key_exists("debug",$config)) $debug = $config['debug'];
-
+        //if(array_key_exists("callback_url",$config)) $container->setParameter("oauth.callback",$config['callback_url']);
+        if(array_key_exists("storage",$config)) $storage = $config['storage'];
         $container->setParameter("oauth.debug",$debug);
+        $container->setParameter("oauth.storage",$storage);
     }
     public function getAlias()
     {

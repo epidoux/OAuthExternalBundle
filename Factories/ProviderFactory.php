@@ -2,7 +2,11 @@
 
 namespace Epidoux\OAuthExternalBundle\Factories;
 
-use Epidoux\OAuthExternalBundle\OAuth\OauthClient;
+
+use Epidoux\OAuthExternalBundle\Entities\ConnectorWrapper;
+use OAuth\Common\Consumer\Credentials;
+use OAuth\Common\Storage\Memory;
+use OAuth\Common\Storage\SymfonySession;
 
 /**
  * Class ProviderFactory which creates the providers
@@ -12,50 +16,6 @@ use Epidoux\OAuthExternalBundle\OAuth\OauthClient;
  */
 class ProviderFactory {
 
-    private $connectorsName = array(
-        "amazon" => "AmazonConnector",
-        "bitbucket" => "BitbucketConnector",
-        "bitly" => "BitlyConnector",
-        "box" => "BoxConnector",
-        "dailymotion" => "DailymotionConnector",
-        "deviantart" => "DeviantartConnector",
-        "disqus" => "DisqusConnector",
-        "dropbox" => "DropboxConnector",
-        "eventful" => "EventfulConnector",
-        "evernote" => "EvernoteConnector",
-        "facebook" => "FacebookConnector",
-        "fitbit" => "FitbitConnector",
-        "flickr" => "FlickrConnector",
-        "foursquare" => "FoursquareConnector",
-        "github" => "GithubConnector",
-        "google" => "GoogleConnector",
-        "instagram" => "InstagramConnector",
-        "oauth1" => "OAuth1Connector",
-        "oauth1a" => "OAuth1aConnector",
-        "oauth2" => "OAuth2Connector",
-        "odnoklassniki" => "OdnoklassnikiConnector",
-        "qq" => "QqConnector",
-        "rightsignature" => "RightSignatureConnector",
-        "salesforce" => "SalesforceConnector",
-        "scoopit" => "ScoopitConnector",
-        "sensioconnect" => "SensioConnectConnector",
-        "sinaweibo" => "SinaWeiboConnector",
-        "stackexchange" => "StackExchangeConnector",
-        "stereomood" => "StereomoodConnector",
-        "stocktwits" => "StockTwitsConnector",
-        "surveymonkey" => "SurveyMonkeyConnector",
-        "thirtysevensignals" => "ThirtySevenSignalsConnector",
-        "tumblr" => "TumblrConnector",
-        "twitter" => "TwitterConnector",
-        "vkontakt" => "VkontaktConnector",
-        "windowslive" => "WindowsLiveConnector",
-        "wordpress" => "WordpressConnector",
-        "xing" => "XingConnector",
-        "yahoo" => "YahooConnector",
-        "yandex" => "YandexConnector"
-    );
-
-
     /**
      * Constructor
      */
@@ -64,20 +24,34 @@ class ProviderFactory {
     }
 
     /**
+     * Create connector
      * @param $name the unique connector name
      * @param $service array the service
-     * @param $logger instance of sf2 monolog
+     * @param $storage_type String the storage type
      * @return connector instance
      */
-    public function createConnector($name,$service,$logger)
+    public function createConnector($name,$service,$session,$storage_type)
     {
-        $classname = $this->connectorsName[$service['type']];
-        $namespace = 'Epidoux\OAuthExternalBundle\Entities\Connectors';
-        $class_total = $namespace.'\\'.$classname;
-        $connector = new $class_total();
-        //Generate the url redirect path
-        $connector->setName($name);
-        $connector->setConfig($service);
+        $connector = new ConnectorWrapper($name,null,$service['type']);
+        // Setup the storage
+        if($storage_type == "session") $storage = new SymfonySession($session);
+        else{
+            //memory
+            $storage = new Memory();
+        }
+        $uriFactory = new \OAuth\Common\Http\Uri\UriFactory();
+        $currentUri = $uriFactory->createFromSuperGlobalArray($_SERVER);
+        $currentUri->setQuery('');
+        // Setup the credentials
+        $credentials = new Credentials(
+            $service["client_id"],
+            $service["client_secret"],
+            $currentUri->getAbsoluteUri()
+        );
+        $serviceFactory = new \OAuth\ServiceFactory();
+        $client = $serviceFactory->createService($service["server"], $credentials, $storage);
+
+        $connector->setService($client);
         return $connector;
     }
 

@@ -6,7 +6,7 @@ parameters:
 services:
      connector.service:
         class: %connector.class%
-        arguments: [%oauth.services%,%oauth.callback%,%oauth.debug%,@logger,@oauth.factory.provider]
+        arguments: [%oauth.services%,@logger,@oauth.factory.provider,@session,%oauth.storage%]
 
      oauth.service:
         class: %oauth.class%

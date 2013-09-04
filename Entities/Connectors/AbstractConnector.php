@@ -77,7 +77,9 @@ abstract class AbstractConnector {
      */
     public function getClient()
     {
-        if($this->client == null) $this->client = new \OAuth($this->config['client_id'],$this->config['client_secret'],OAUTH_SIG_METHOD_HMACSHA1,OAUTH_AUTH_TYPE_URI);
+        if($this->client == null){
+            $this->client = new \OAuth($this->config['client_id'],$this->config['client_secret'],OAUTH_SIG_METHOD_HMACSHA1,OAUTH_AUTH_TYPE_URI);
+        }
         return $this->client;
     }
 

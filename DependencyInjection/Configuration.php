@@ -15,45 +15,29 @@ class Configuration implements ConfigurationInterface
 
     private $connectorsName = array(
         "amazon",
-        "bitbucket",
         "bitly",
         "box",
-        "dailymotion",
-        "deviantart",
-        "disqus",
         "dropbox",
-        "eventful",
-        "evernote",
+        "etsy",
         "facebook",
         "fitbit",
-        "flickr",
         "foursquare",
         "github",
         "google",
         "instagram",
-        "oauth1",
-        "oauth1a",
-        "oauth2",
-        "odnoklassniki",
-        "qq",
-        "rightsignature",
-        "salesforce",
-        "scoopit",
-        "sensioconnect",
-        "sinaweibo",
-        "stackexchange",
-        "stereomood",
-        "stocktwits",
-        "surveymonkey",
-        "thirtysevensignals",
+        "linkedin",
+        "microsoft",
+        "paypal",
+        "soundcloud",
         "tumblr",
         "twitter",
-        "vkontakt",
-        "windowslive",
-        "wordpress",
-        "xing",
-        "yahoo",
-        "yandex"
+        "vkontakte",
+        "yammer"
+    );
+
+    private $storagesName = array(
+        "session",
+        "memory"
     );
 
 
@@ -67,7 +51,18 @@ class Configuration implements ConfigurationInterface
 
        $rootNode
             ->children()
-                ->scalarNode('debug')->end()
+                ->scalarNode('storage')
+                    ->validate()
+                        ->ifNotInArray($this->storagesName)
+                        ->thenInvalid('Unknown storage type "%s".')
+                    ->end()
+                    ->validate()
+                        ->ifTrue(function($v) {
+                            return empty($v);
+                        })
+                        ->thenUnset()
+                    ->end()
+               ->end()
                 ->scalarNode('callback_url')->isRequired()->end()
                 ->arrayNode('services')
                     ->isRequired()
@@ -75,7 +70,7 @@ class Configuration implements ConfigurationInterface
                     ->useAttributeAsKey('name')
                     ->prototype('array')
                         ->children()
-                            ->scalarNode('base_url')->end()
+                            /*->scalarNode('base_url')->end()
                             ->scalarNode('access_token_url')
                                 ->validate()
                                     ->ifTrue(function($v) {
@@ -107,21 +102,21 @@ class Configuration implements ConfigurationInterface
                                     })
                                     ->thenUnset()
                                 ->end()
-                            ->end()
+                            ->end()*/
                             ->scalarNode('client_id')
                                 ->cannotBeEmpty()
                             ->end()
                             ->scalarNode('client_secret')
                                 ->cannotBeEmpty()
                             ->end()
-                            ->scalarNode('scope')
+                            /*->scalarNode('scope')
                                 ->validate()
                                     ->ifTrue(function($v) {
                                         return empty($v);
                                     })
                                     ->thenUnset()
                                 ->end()
-                            ->end()
+                            ->end()*/
                             ->scalarNode('type')
                                 ->validate()
                                     ->ifNotInArray($this->connectorsName)

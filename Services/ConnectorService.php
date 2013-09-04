@@ -29,23 +29,19 @@ class ConnectorService {
     /**
      * OAuth constructor
      * @param $services the services available and defined in config file
-     * @param $callback the callback uri
-     * @param $debug the debug status
      * @param $logger the logger service
      * @param $providerFactory the factory of connectors
+     * @param $session the session
+     * @param $storage String the storage type
      */
-    public function __construct($services,$callback,$debug,$logger,$providerFactory)
+    public function __construct($services,$logger,$providerFactory,$session,$storage)
     {
         $this->logger = $logger;
         $this->providerFactory = $providerFactory;
 
         foreach($services as $name=>$service)
         {
-            if(empty($callback))$callback = 'http://'.$_SERVER['HTTP_HOST'].
-                dirname(strtok($_SERVER['REQUEST_URI'],'?'));
-            $service['redirect_uri']= $callback;
-            $connector = $this->providerFactory->createConnector($name,$service,$this->logger);
-            $connector->getClient()->debug=$debug;
+            $connector = $this->providerFactory->createConnector($name,$service,$session,$storage);
 
             $this->connectors[$name] = $connector;
         }
@@ -69,5 +65,41 @@ class ConnectorService {
     {
         return $this->connectors[$name];
     }
+
+    /**
+     * Connect to the given connector
+     * @param $connector ConnectorWrapper the connector wrapper
+     * @param $request the request
+     */
+    public function connect($connector,$request)
+    {
+        if(!empty($request->get('oauth_token')))
+        {
+            $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
+
+            // This was a callback request from twitter, get the token
+            $connector->getService()->requestAccessToken(
+                $_GET['oauth_token'],
+                $_GET['oauth_verifier'],
+                $token->getRequestTokenSecret()
+            );
+            // Send a request now that we have access token
+            $result = json_decode($twitterService->request('account/verify_credentials.json'));
+
+            echo 'result: <pre>' . print_r($result, true) . '</pre>';
+        } elseif (!empty($_GET['go']) && $_GET['go'] == 'go') {
+            // extra request needed for oauth1 to request a request token :-)
+            $token = $twitterService->requestRequestToken();
+
+            $url = $twitterService->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
+            header('Location: ' . $url);
+        } else {
+            $url = $currentUri->getRelativeUri() . '?go=go';
+            echo "<a href='$url'>Login with Twitter!</a>";
+        }
+
+    }
+
+
 
 }

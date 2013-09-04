@@ -26,23 +26,6 @@ class ConnectController extends ContainerAware
         $info=array();
         //get all services array(name=>array(token,secret),...)
         $services = $this->container->get('connector.service')->getConnectors();
-        /*if($request->get('provider')!="")
-        {
-            $connector = $this->container->get('connector.service')->getConnector($request->get('provider'));
-            if($connector != null)
-            {
-                //authenticate into it
-               $return =  $this->container->get('connector.service')->processAuthentification($connector);
-                if(!$return){
-                    //Flash msg error
-                    $this->container->get('session')->getFlashBag()->add('error', "An error occured while authenticate on ".$connector->getName()." : ".$return);
-                }
-                else{
-                    $this->container->get('session')->getFlashBag()->add('success', "Succefully connected on ".$connector->getName());
-
-                }
-            }
-        }*/
         return $this->container->get('templating')->renderResponse('EpidouxOAuthExternalBundle:Services:list.html.twig',
             array(
                 "services"=>$services
@@ -60,7 +43,9 @@ class ConnectController extends ContainerAware
         //request token and if already connected redirect on view or redirect on service
         $connector = $this->container->get('connector.service')->getConnector($connectorName);
 
-        $returned = $this->container->get('oauth.service')->getRequestToken($connector);
+        $result = $connector->connect($connector);
+
+        return new Response($result);
     }
 
     /**
