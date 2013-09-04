@@ -84,19 +84,16 @@ class ConnectorService {
                 $token->getRequestTokenSecret()
             );
             // Send a request now that we have access token
-            $result = json_decode($twitterService->request('account/verify_credentials.json'));
+            $result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
             echo 'result: <pre>' . print_r($result, true) . '</pre>';
         } elseif (!empty($_GET['go']) && $_GET['go'] == 'go') {
             // extra request needed for oauth1 to request a request token :-)
-            $token = $twitterService->requestRequestToken();
+            $token = $connector->getService()->requestRequestToken();
 
-            $url = $twitterService->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
+            $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
             header('Location: ' . $url);
-        } else {
-            $url = $currentUri->getRelativeUri() . '?go=go';
-            echo "<a href='$url'>Login with Twitter!</a>";
-        }
+        } 
 
     }
 
