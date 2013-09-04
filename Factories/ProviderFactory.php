@@ -5,6 +5,7 @@ namespace Epidoux\OAuthExternalBundle\Factories;
 
 use Epidoux\OAuthExternalBundle\Entities\ConnectorWrapper;
 use OAuth\Common\Consumer\Credentials;
+use OAuth\Common\Http\Client\CurlClient;
 use OAuth\Common\Storage\Memory;
 use OAuth\Common\Storage\SymfonySession;
 
@@ -49,6 +50,7 @@ class ProviderFactory {
             $currentUri->getAbsoluteUri()
         );
         $serviceFactory = new \OAuth\ServiceFactory();
+        $serviceFactory->setHttpClient(new CurlClient());
         $client = $serviceFactory->createService($service["type"], $credentials, $storage);
 
         $connector->setService($client);
