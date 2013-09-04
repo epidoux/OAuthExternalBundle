@@ -28,6 +28,7 @@ class EpidouxOAuthExternalExtension extends Extension
         $container->setParameter('oauth.services', $config['services']);
         //if(array_key_exists("callback_url",$config)) $container->setParameter("oauth.callback",$config['callback_url']);
         if(array_key_exists("storage",$config)) $storage = $config['storage'];
+        else $storage = "session";
         $container->setParameter("oauth.debug",$debug);
         $container->setParameter("oauth.storage",$storage);
     }
