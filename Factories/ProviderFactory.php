@@ -49,7 +49,7 @@ class ProviderFactory {
             $currentUri->getAbsoluteUri()
         );
         $serviceFactory = new \OAuth\ServiceFactory();
-        $client = $serviceFactory->createService($service["server"], $credentials, $storage);
+        $client = $serviceFactory->createService($service["type"], $credentials, $storage);
 
         $connector->setService($client);
         return $connector;
