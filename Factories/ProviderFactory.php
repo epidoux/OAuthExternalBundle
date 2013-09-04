@@ -57,7 +57,7 @@ class ProviderFactory {
         $credentials = new Credentials(
             $service["client_id"],
             $service["client_secret"],
-            $callback_url
+            "oob"
         );//$currentUri->getAbsoluteUri()
         $serviceFactory = new \OAuth\ServiceFactory();
         //$serviceFactory->setHttpClient(new CurlClient());
