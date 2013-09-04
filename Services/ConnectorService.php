@@ -113,7 +113,7 @@ class ConnectorService {
     public function api($connector,$api_request=null)
     {
         //TODO request and if error redirect to connect
-        $result = json_decode($connector->getService()->request('statuses/show.json'));
+        $result = json_decode($connector->getService()->request('statuses/user_timeline.json'));
 
         return $result;
     }
