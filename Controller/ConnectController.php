@@ -56,6 +56,7 @@ class ConnectController extends ContainerAware
         }
         else
         {
+            $result = $this->container->get('connector.service')->api($connector);
             $this->container->get('logger')->info("display content ".$result);
             return new Response($result);
         }

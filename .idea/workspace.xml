@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/ConnectorService.php" afterPath="$PROJECT_DIR$/Services/ConnectorService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Entities/ConnectorWrapper.php" afterPath="$PROJECT_DIR$/Entities/ConnectorWrapper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Factories/ProviderFactory.php" afterPath="$PROJECT_DIR$/Factories/ProviderFactory.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
@@ -38,7 +41,7 @@
     <file path="/StockTwitsConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376316575624" ignored="false" />
     <file path="/SurveyMonkeyConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376316483539" ignored="false" />
     <file path="/XingConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322107676" ignored="false" />
-    <file path="/ProviderFactory.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378310030738" ignored="false" />
+    <file path="/ProviderFactory.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378312106188" ignored="false" />
     <file path="/Configuration.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378220237124" ignored="false" />
     <file path="/YahooConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322115602" ignored="false" />
     <file path="/RightSignatureConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322033340" ignored="false" />
@@ -46,7 +49,7 @@
     <file path="/OAuth1aConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321883443" ignored="false" />
     <file path="/EvernoteConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321971538" ignored="false" />
     <file path="/TumblrConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322080061" ignored="false" />
-    <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378309110957" ignored="false" />
+    <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378320456092" ignored="false" />
     <file path="/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377982734128" ignored="false" />
     <file path="/list.html.twig" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377982784321" ignored="false" />
     <file path="/var/www/symfony/app/config/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378310759526" ignored="false" />
@@ -56,7 +59,7 @@
     <file path="/var/www/symfony/src/Acme/DemoBundle/Resources/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215563" ignored="false" />
     <file path="/var/www/symfony/app/config/security.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596215564" ignored="false" />
     <file path="/var/www/symfony/app/config/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376598993765" ignored="false" />
-    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378299270302" ignored="false" />
+    <file path="/var/www/symfony/app/cache/dev/appDevDebugProjectContainer.xml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378311994111" ignored="false" />
     <file path="/var/www/symfony/composer.json" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376596261637" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/DependencyInjection/epidouxOAuthExternalBundleExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376576220338" ignored="false" />
     <file path="/var/www/symfony/vendor/epidoux/oauthexternalbundle/Epidoux/OAuthExternalBundle/epidouxOAuthExternalBundle.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376570874352" ignored="false" />
@@ -287,7 +290,7 @@
     <file path="/TextualizeExtensionTest.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377239846869" ignored="false" />
     <file path="/CamelizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377241326627" ignored="false" />
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
-    <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378303831661" ignored="false" />
+    <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378320410850" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
     <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378128429376" ignored="false" />
     <file path="/ConnectorWrapper.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378309769684" ignored="false" />
@@ -313,10 +316,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.49619904">
       <split-first>
         <leaf>
-          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="ConnectController.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="35" column="7" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-10.625">
+                <state line="60" column="36" selection-start="2274" selection-end="2274" vertical-scroll-proportion="0.6122449">
                   <folding>
                     <element signature="e#58#115#0" expanded="true" />
                   </folding>
@@ -336,7 +339,16 @@
           <file leaf-file-name="Twitter.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Twitter.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="59" column="0" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-13.75">
+                <state line="11" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="-2.5">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AbstractService.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/AbstractService.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="133" column="7" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-9.375">
                   <folding />
                 </state>
               </provider>
@@ -372,16 +384,16 @@
           <file leaf-file-name="ConnectorWrapper.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Entities/ConnectorWrapper.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="27" selection-start="1461" selection-end="1461" vertical-scroll-proportion="-28.875">
+                <state line="56" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="-8.875">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ProviderFactory.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ProviderFactory.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="46" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.46242037">
+                <state line="67" column="25" selection-start="2036" selection-end="2036" vertical-scroll-proportion="-28.125">
                   <folding />
                 </state>
               </provider>
@@ -403,7 +415,7 @@
           <file leaf-file-name="ConnectorService.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="47" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.2962963">
+                <state line="112" column="52" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.7222222">
                   <folding />
                 </state>
               </provider>
@@ -413,7 +425,9 @@
             <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="16" column="27" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
-                  <folding />
+                  <folding>
+                    <marker date="1378309892971" expanded="true" signature="571:590" placeholder="arguments:" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -465,13 +479,13 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Entities/Connectors/AbstractConnector.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalExtension.php" />
-        <option value="$PROJECT_DIR$/Services/ConnectorService.php" />
         <option value="$PROJECT_DIR$/Resources/views/Services/redirect.html.twig" />
-        <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
-        <option value="$PROJECT_DIR$/Entities/ConnectorWrapper.php" />
         <option value="$PROJECT_DIR$/Resources/config/services.yml" />
         <option value="$PROJECT_DIR$/Factories/ProviderFactory.php" />
+        <option value="$PROJECT_DIR$/Entities/ConnectorWrapper.php" />
+        <option value="$PROJECT_DIR$/Services/ConnectorService.php" />
+        <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
       </list>
     </option>
   </component>
@@ -522,6 +536,144 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lusitanian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lusitanian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lusitanian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuth1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuthExternalBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lusitanian" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OAuth1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Service" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -716,7 +868,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -808,13 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/AbstractService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="48" selection-start="2180" selection-end="2180" vertical-scroll-proportion="0.47368422">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/CurlClient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2165605">
@@ -825,13 +970,6 @@
     <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/ServiceFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="7" selection-start="726" selection-end="726" vertical-scroll-proportion="0.37037036">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Twitter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="2083" selection-end="2083" vertical-scroll-proportion="-13.75">
           <folding />
         </state>
       </provider>
@@ -847,15 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="134" selection-end="134" vertical-scroll-proportion="-5.625">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="1143" selection-end="1143" vertical-scroll-proportion="-10.625">
-          <folding>
-            <element signature="e#58#115#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -876,7 +1005,9 @@
     <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="27" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1378309892971" expanded="true" signature="571:590" placeholder="arguments:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -894,24 +1025,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="25" selection-start="2036" selection-end="2036" vertical-scroll-proportion="-28.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Entities/ConnectorWrapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="27" selection-start="1461" selection-end="1461" vertical-scroll-proportion="-28.875">
+        <state line="56" column="0" selection-start="925" selection-end="925" vertical-scroll-proportion="-8.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Twitter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/AbstractService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="7" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="47" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.2962963">
+        <state line="112" column="52" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.7222222">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Factories/ProviderFactory.php">
+    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="46" selection-start="1259" selection-end="1259" vertical-scroll-proportion="0.46242037">
-          <folding />
+        <state line="60" column="36" selection-start="2274" selection-end="2274" vertical-scroll-proportion="0.6122449">
+          <folding>
+            <element signature="e#58#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

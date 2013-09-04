@@ -43,6 +43,14 @@ class ProviderFactory {
         else{
             $callback_url = $this->router->generate("oauthexternal_connect", array("connectorName"=>$name), true);
         }
+
+        //handle special redirect callback for some services (have to be defined on the service website)
+        if($service['type']=="twitter")
+        {
+            $callback_url = "oob";
+        }
+
+
         $connector = new ConnectorWrapper($name,null,$service['type'],$callback_url);
         // Setup the storage
         if($storage_type == "session") $storage = new SymfonySession($session);
@@ -57,7 +65,7 @@ class ProviderFactory {
         $credentials = new Credentials(
             $service["client_id"],
             $service["client_secret"],
-            "oob"
+            $callback_url
         );//$currentUri->getAbsoluteUri()
         $serviceFactory = new \OAuth\ServiceFactory();
         //$serviceFactory->setHttpClient(new CurlClient());

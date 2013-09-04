@@ -66,7 +66,7 @@ class ConnectorWrapper {
 
     /**
      * Get the connector type
-     * @return $
+     * @return $type
      */
     public function getType()
     {

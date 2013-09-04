@@ -81,15 +81,18 @@ class ConnectorService {
             $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
 
             // This was a callback request from twitter, get the token
-            $connector->getService()->requestAccessToken(
+            $token = $connector->getService()->requestAccessToken(
                 $auth_token,
                 $auth_verifier,
                 $token->getRequestTokenSecret()
             );
+            //TODO
+            //TRY TO SAVE ACCESS TOKEN
+
             // Send a request now that we have access token
             $result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
-            $return = 'result: <pre>' . print_r($result, true) . '</pre>';
+            $return = $result;
         } else{
             // extra request needed for oauth1 to request a request token :-)
             $token = $connector->getService()->requestRequestToken();
@@ -99,6 +102,20 @@ class ConnectorService {
         }
 
         return $return;
+    }
+
+    /**
+     * Connect to the given connector and execute the api
+     * @param $connector ConnectorWrapper the connector wrapper
+     * @param $api_request, the api request
+     * @return the result or false if user is not linked
+     */
+    public function api($connector,$api_request=null)
+    {
+        //TODO request and if error redirect to connect
+        $result = json_decode($connector->getService()->request('statuses/show.json'));
+
+        return $result;
     }
 
 
