@@ -93,7 +93,7 @@ class ConnectorService {
 
             $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
             header('Location: ' . $url);
-        } 
+        }
 
     }
 
