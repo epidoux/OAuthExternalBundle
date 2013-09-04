@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/ConnectorService.php" afterPath="$PROJECT_DIR$/Services/ConnectorService.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -288,7 +287,7 @@
     <file path="/TextualizeExtensionTest.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377239846869" ignored="false" />
     <file path="/CamelizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377241326627" ignored="false" />
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
-    <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378296268069" ignored="false" />
+    <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378296554504" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
     <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378128429376" ignored="false" />
     <file path="/ConnectorWrapper.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378225113044" ignored="false" />
@@ -316,7 +315,7 @@
           <file leaf-file-name="ConnectController.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="47" column="37" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.65679014">
+                <state line="45" column="60" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.61975306">
                   <folding />
                 </state>
               </provider>
@@ -383,7 +382,7 @@
           <file leaf-file-name="ConnectorService.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="21" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.46296296">
+                <state line="75" column="17" selection-start="1778" selection-end="1783" vertical-scroll-proportion="0.4074074">
                   <folding />
                 </state>
               </provider>
@@ -856,13 +855,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="21" selection-start="1787" selection-end="1787" vertical-scroll-proportion="0.46296296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/views/Services/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="68" selection-start="434" selection-end="447" vertical-scroll-proportion="-10.0">
@@ -870,9 +862,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="17" selection-start="1778" selection-end="1783" vertical-scroll-proportion="0.4074074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="37" selection-start="1589" selection-end="1589" vertical-scroll-proportion="0.65679014">
+        <state line="45" column="60" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.61975306">
           <folding />
         </state>
       </provider>
