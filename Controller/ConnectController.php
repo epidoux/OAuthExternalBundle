@@ -50,7 +50,7 @@ class ConnectController extends ContainerAware
             //return new RedirectResponse($result);
             return $this->container->get('templating')->renderResponse('EpidouxOAuthExternalBundle:Services:redirect.html.twig',
                 array(
-                    "url"=>$url
+                    "url"=>$result
                 )
             );
         }
