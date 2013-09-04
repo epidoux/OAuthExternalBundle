@@ -46,7 +46,7 @@
     <file path="/OAuth1aConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321883443" ignored="false" />
     <file path="/EvernoteConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376321971538" ignored="false" />
     <file path="/TumblrConnector.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1376322080061" ignored="false" />
-    <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378307512063" ignored="false" />
+    <file path="/ConnectController.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378308523638" ignored="false" />
     <file path="/routing.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377982734128" ignored="false" />
     <file path="/list.html.twig" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377982784321" ignored="false" />
     <file path="/var/www/symfony/app/config/config.yml" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378295856931" ignored="false" />
@@ -315,8 +315,10 @@
           <file leaf-file-name="ConnectController.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="49" column="60" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.49012345">
-                  <folding />
+                <state line="49" column="30" selection-start="1794" selection-end="1810" vertical-scroll-proportion="0.5740741">
+                  <folding>
+                    <element signature="e#58#115#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -391,7 +393,7 @@
           <file leaf-file-name="ConnectorService.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="73" column="48" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.2962963">
+                <state line="68" column="7" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.2037037">
                   <folding />
                 </state>
               </provider>
@@ -1118,15 +1120,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="48" selection-start="1759" selection-end="1759" vertical-scroll-proportion="0.2962963">
+        <state line="68" column="7" selection-start="1565" selection-end="1565" vertical-scroll-proportion="0.2037037">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="60" selection-start="1831" selection-end="1831" vertical-scroll-proportion="0.49012345">
-          <folding />
+        <state line="49" column="30" selection-start="1794" selection-end="1810" vertical-scroll-proportion="0.5740741">
+          <folding>
+            <element signature="e#58#115#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
