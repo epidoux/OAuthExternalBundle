@@ -47,8 +47,8 @@ class ProviderFactory {
         $credentials = new Credentials(
             $service["client_id"],
             $service["client_secret"],
-            $currentUri->getAbsoluteUri()
-        );
+            'oob'
+        );//$currentUri->getAbsoluteUri()
         $serviceFactory = new \OAuth\ServiceFactory();
         $serviceFactory->setHttpClient(new CurlClient());
         $client = $serviceFactory->createService($service["type"], $credentials, $storage);
