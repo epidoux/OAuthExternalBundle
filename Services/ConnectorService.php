@@ -89,15 +89,16 @@ class ConnectorService {
             // Send a request now that we have access token
             $result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
-            echo 'result: <pre>' . print_r($result, true) . '</pre>';
+            $return = 'result: <pre>' . print_r($result, true) . '</pre>';
         } else{
             // extra request needed for oauth1 to request a request token :-)
             $token = $connector->getService()->requestRequestToken();
 
             $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
-            header('Location: ' . $url);
+            $return = $url;
         }
 
+        return $return;
     }
 
 
