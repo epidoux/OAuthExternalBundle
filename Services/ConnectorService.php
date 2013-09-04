@@ -73,21 +73,23 @@ class ConnectorService {
      */
     public function connect($connector,$request)
     {
-        if(!empty($request->get('oauth_token')))
+        $auth_token = $request->get('oauth_token');
+        if(!empty($oauth_token))
         {
+            $auth_verifier = $request->get('oauth_verifier');
             $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
 
             // This was a callback request from twitter, get the token
             $connector->getService()->requestAccessToken(
-                $_GET['oauth_token'],
-                $_GET['oauth_verifier'],
+                $oauth_token,
+                $auth_verifier,
                 $token->getRequestTokenSecret()
             );
             // Send a request now that we have access token
             $result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
             echo 'result: <pre>' . print_r($result, true) . '</pre>';
-        } elseif (!empty($_GET['go']) && $_GET['go'] == 'go') {
+        } else if (!empty($_GET['go']) && $_GET['go'] == 'go') {
             // extra request needed for oauth1 to request a request token :-)
             $token = $connector->getService()->requestRequestToken();
 

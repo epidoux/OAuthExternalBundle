@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controller/ConnectController.php" afterPath="$PROJECT_DIR$/Controller/ConnectController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/ConnectorService.php" afterPath="$PROJECT_DIR$/Services/ConnectorService.php" />
     </list>
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -287,7 +287,7 @@
     <file path="/TextualizeExtensionTest.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377239846869" ignored="false" />
     <file path="/CamelizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377241326627" ignored="false" />
     <file path="/SingularizeExtension.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377246932643" ignored="false" />
-    <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378296554504" ignored="false" />
+    <file path="/ConnectorService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378297137806" ignored="false" />
     <file path="/SessionException.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1377780588867" ignored="false" />
     <file path="/OAuthService.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378128429376" ignored="false" />
     <file path="/ConnectorWrapper.php" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378225113044" ignored="false" />
@@ -312,10 +312,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.52868">
       <split-first>
         <leaf>
-          <file leaf-file-name="ConnectController.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ConnectController.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="45" column="60" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.61975306">
+                <state line="28" column="50" selection-start="976" selection-end="976" vertical-scroll-proportion="0.30493826">
                   <folding />
                 </state>
               </provider>
@@ -379,10 +379,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ConnectorService.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="ConnectorService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="75" column="17" selection-start="1778" selection-end="1783" vertical-scroll-proportion="0.4074074">
+                <state line="78" column="22" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.5740741">
                   <folding />
                 </state>
               </provider>
@@ -449,8 +449,8 @@
         <option value="$PROJECT_DIR$/Factories/ProviderFactory.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/EpidouxOAuthExternalExtension.php" />
         <option value="$PROJECT_DIR$/DependencyInjection/Configuration.php" />
-        <option value="$PROJECT_DIR$/Services/ConnectorService.php" />
         <option value="$PROJECT_DIR$/Controller/ConnectController.php" />
+        <option value="$PROJECT_DIR$/Services/ConnectorService.php" />
       </list>
     </option>
   </component>
@@ -808,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="44" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="28" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
@@ -862,16 +855,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
+    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="17" selection-start="1778" selection-end="1783" vertical-scroll-proportion="0.4074074">
+        <state line="28" column="50" selection-start="976" selection-end="976" vertical-scroll-proportion="0.30493826">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controller/ConnectController.php">
+    <entry file="file://$PROJECT_DIR$/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="60" selection-start="1560" selection-end="1560" vertical-scroll-proportion="0.61975306">
+        <state line="6" column="44" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="22" selection-start="1883" selection-end="1883" vertical-scroll-proportion="0.5740741">
           <folding />
         </state>
       </provider>
