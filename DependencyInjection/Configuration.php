@@ -63,7 +63,6 @@ class Configuration implements ConfigurationInterface
                         ->thenUnset()
                     ->end()
                ->end()
-                ->scalarNode('callback_url')->isRequired()->end()
                 ->arrayNode('services')
                     ->isRequired()
                     ->requiresAtLeastOneElement()
@@ -129,7 +128,7 @@ class Configuration implements ConfigurationInterface
                                     ->thenUnset()
                                 ->end()
                             ->end()
-
+                            ->scalarNode('callback_url')->end()
                         ->end()
                     ->end()
                 ->end()

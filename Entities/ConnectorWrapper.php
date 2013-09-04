@@ -15,14 +15,17 @@ class ConnectorWrapper {
 
     private $type;
 
+    private $callback_url;
+
     /**
      * Constructor
      */
-    public function __construct($name,$service,$type)
+    public function __construct($name,$service,$type,$url)
     {
         $this->name= $name;
         $this->service = $service;
         $this->type = $type;
+        $this->callback_url = $url;
     }
 
     /**
@@ -73,5 +76,15 @@ class ConnectorWrapper {
     public function setType($type)
     {
         $this->type = $type;
+    }
+
+    public function getCallbackUrl()
+    {
+        return $this->callback_url;
+    }
+
+    public function setCallbackUrl($url)
+    {
+        $this->callback_url = $url;
     }
 }

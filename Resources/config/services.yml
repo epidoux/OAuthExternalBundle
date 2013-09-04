@@ -14,4 +14,4 @@ services:
 
      oauth.factory.provider:
         class: %oauth.provider_factory.class%
-        arguments: []
+        arguments: [@router]

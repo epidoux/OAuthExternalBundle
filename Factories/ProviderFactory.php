@@ -17,11 +17,14 @@ use OAuth\Common\Storage\SymfonySession;
  */
 class ProviderFactory {
 
+    private $router;
+
     /**
      * Constructor
+     * @param $router Router sf2
      */
-    public function __construct() {
-
+    public function __construct($router) {
+        $this->router = $router;
     }
 
     /**
@@ -33,7 +36,14 @@ class ProviderFactory {
      */
     public function createConnector($name,$service,$session,$storage_type)
     {
-        $connector = new ConnectorWrapper($name,null,$service['type']);
+        if(array_key_exists("callback_url",$service) && $service['callback_url']!="")
+        {
+            $callback_url = $service['callback_url'];
+        }
+        else{
+            $callback_url = $this->router->generate("oauthexternal_connect", array("connectorName"=>$name), true);
+        }
+        $connector = new ConnectorWrapper($name,null,$service['type'],$callback_url);
         // Setup the storage
         if($storage_type == "session") $storage = new SymfonySession($session);
         else{
@@ -47,7 +57,7 @@ class ProviderFactory {
         $credentials = new Credentials(
             $service["client_id"],
             $service["client_secret"],
-            'oob'
+            $callback_url
         );//$currentUri->getAbsoluteUri()
         $serviceFactory = new \OAuth\ServiceFactory();
         //$serviceFactory->setHttpClient(new CurlClient());
