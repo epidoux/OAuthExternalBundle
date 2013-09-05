@@ -90,8 +90,9 @@ class ConnectorService {
             //TRY TO SAVE ACCESS TOKEN
 
             // Send a request now that we have access token
-            $result = json_decode($connector->getService()->request('account/verify_credentials.json'));
+            //$result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
+            $result = json_decode($connector->getService()->request('statuses/user_timeline.json'));
             $return = $result;
         } else{
             // extra request needed for oauth1 to request a request token :-)
@@ -112,8 +113,8 @@ class ConnectorService {
      */
     public function api($connector,$api_request=null)
     {
-        //TODO request and if error redirect to connect
-        $result = json_decode($connector->getService()->request('statuses/user_timeline.json'));
+        //TODO request and if error redirect to connect;
+        $result = json_decode($connector->getService()->request('statuses/user_timeline.json'))
 
         return $result;
     }
