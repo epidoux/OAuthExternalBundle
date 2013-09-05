@@ -114,7 +114,7 @@ class ConnectorService {
     public function api($connector,$api_request=null)
     {
         //TODO request and if error redirect to connect;
-        $result = json_decode($connector->getService()->request('statuses/user_timeline.json'))
+        $result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
 
         return $result;
     }
