@@ -73,33 +73,36 @@ class ConnectorService {
      */
     public function connect($connector,$request)
     {
-        $auth_token = $request->get('oauth_token');
-        if(!empty($auth_token))
-        {
-            $auth_verifier = $request->get('oauth_verifier');
-            $this->logger->debug('Retrieving Token with params: oauth_token=>'.$auth_token." ; oauth_verifier=>".$auth_verifier);
-            $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
+        $return = true;
+        $auth_token = $request->get('oauth_token');//request token
+        $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
+        if($token!=null)
+            {
+            if(!empty($auth_token))
+            {
 
-            // This was a callback request from twitter, get the token
-            $token = $connector->getService()->requestAccessToken(
-                $auth_token,
-                $auth_verifier,
-                $token->getRequestTokenSecret()
-            );
-            //TODO
-            //TRY TO SAVE ACCESS TOKEN
+                $auth_verifier = $request->get('oauth_verifier');
+                $this->logger->debug('Retrieving Token with params: oauth_token=>'.$auth_token." ; oauth_verifier=>".$auth_verifier);
 
-            // Send a request now that we have access token
-            //$result = json_decode($connector->getService()->request('account/verify_credentials.json'));
+                // This was a callback request from twitter, get the token
+                $token = $connector->getService()->requestAccessToken(
+                    $auth_token,
+                    $auth_verifier,
+                    $token->getRequestTokenSecret()
+                );
 
-            $result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
-            $return = $result;
-        } else{
-            // extra request needed for oauth1 to request a request token :-)
-            $token = $connector->getService()->requestRequestToken();
+                // Send a request now that we have access token
+                //$result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
-            $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
-            $return = $url;
+                $result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
+                $return = $result;
+            } else{
+                // extra request needed for oauth1 to request a request token :-)
+                $token = $connector->getService()->requestRequestToken();
+
+                $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
+                $return = $url;
+            }
         }
 
         return $return;
@@ -111,10 +114,10 @@ class ConnectorService {
      * @param $api_request, the api request
      * @return the result or false if user is not linked
      */
-    public function api($connector,$api_request=null)
+    public function api($connector,$api_request)
     {
-        //TODO request and if error redirect to connect;
-        $result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
+        $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
+        $result = json_decode($connector->getService()->request($api_request));
 
         return $result;
     }

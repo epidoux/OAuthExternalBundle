@@ -51,7 +51,7 @@ class ProviderFactory {
         }
 
 
-        $connector = new ConnectorWrapper($name,null,$service['type'],$callback_url);
+        $connector = new ConnectorWrapper($name,null,$service['type'],$callback_url,$service['scopes']);
         // Setup the storage
         if($storage_type == "session") $storage = new SymfonySession($session);
         else{

@@ -17,15 +17,18 @@ class ConnectorWrapper {
 
     private $callback_url;
 
+    private $scopes;
+
     /**
      * Constructor
      */
-    public function __construct($name,$service,$type,$url)
+    public function __construct($name,$service,$type,$url,$scopes)
     {
         $this->name= $name;
         $this->service = $service;
         $this->type = $type;
         $this->callback_url = $url;
+        $this->scopes = $scopes;
     }
 
     /**
@@ -86,5 +89,14 @@ class ConnectorWrapper {
     public function setCallbackUrl($url)
     {
         $this->callback_url = $url;
+    }
+    public function getScope()
+    {
+        return $this->scope;
+    }
+
+    public function setScope($scope)
+    {
+        $this->scope = $scope;
     }
 }

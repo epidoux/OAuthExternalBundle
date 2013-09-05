@@ -57,7 +57,7 @@ class ConnectController extends ContainerAware
         }
         else
         {
-            //$result = $this->container->get('connector.service')->api($connector);
+            $result = $this->container->get('connector.service')->api($connector,"statuses/user_timeline.json?screen_name=eric_pidoux&count=20");
             $this->container->get('logger')->info("display content ".$result);
             return new Response($result);
         }
