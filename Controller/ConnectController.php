@@ -44,6 +44,7 @@ class ConnectController extends ContainerAware
         $connector = $this->container->get('connector.service')->getConnector($request->get('connectorName'),$request);
 
         $result = $this->container->get('connector.service')->connect($connector,$request);
+
         if(filter_var($result, FILTER_VALIDATE_URL) )
         { //redirect to the given url
             $this->container->get('logger')->info("redirect to service url ".$result);
@@ -56,7 +57,7 @@ class ConnectController extends ContainerAware
         }
         else
         {
-            $result = $this->container->get('connector.service')->api($connector);
+            //$result = $this->container->get('connector.service')->api($connector);
             $this->container->get('logger')->info("display content ".$result);
             return new Response($result);
         }

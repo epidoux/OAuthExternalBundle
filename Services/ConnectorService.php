@@ -92,7 +92,7 @@ class ConnectorService {
             // Send a request now that we have access token
             //$result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
-            $result = json_decode($connector->getService()->request('statuses/user_timeline.jsonuser_timeline.json?screen_name=eric_pidoux&count=20'));
+            $result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
             $return = $result;
         } else{
             // extra request needed for oauth1 to request a request token :-)
