@@ -15,14 +15,15 @@ class Configuration implements ConfigurationInterface
 
     private $connectorsName = array(
         "amazon",
+        "bitBucket",
         "bitly",
         "box",
         "dropbox",
         "etsy",
         "facebook",
-        "fitbit",
+        "fitBit",
         "foursquare",
-        "github",
+        "gitHub",
         "google",
         "instagram",
         "linkedin",

@@ -9,26 +9,47 @@ namespace Epidoux\OAuthExternalBundle\Entities;
  */
 class ConnectorWrapper {
 
+    /**
+     * @var String $name : unique name of the connector
+     */
     private $name;
 
+    /**
+     * @var the service
+     */
     private $service;
 
+    /**
+     * @var String $type : the service type
+     */
     private $type;
 
+    /**
+     * @var String $callback_url: the url to callback
+     */
     private $callback_url;
 
+    /**
+     * @var Array $scopes : the scopes
+     */
     private $scopes;
+
+    /**
+     * @var int the oauth version used
+     */
+    private $version;
 
     /**
      * Constructor
      */
-    public function __construct($name,$service,$type,$url,$scopes)
+    public function __construct($name,$service,$type,$url,$scopes,$version)
     {
         $this->name= $name;
         $this->service = $service;
         $this->type = $type;
         $this->callback_url = $url;
         $this->scopes = $scopes;
+        $this->version = $version;
     }
 
     /**
@@ -90,13 +111,23 @@ class ConnectorWrapper {
     {
         $this->callback_url = $url;
     }
-    public function getScope()
+
+    public function getScopes()
     {
-        return $this->scope;
+        return $this->scopes;
     }
 
-    public function setScope($scope)
+    public function setScopes($scopes)
     {
-        $this->scope = $scope;
+        $this->scopes = $scopes;
+    }
+    public function getVersion()
+    {
+        return $this->version;
+    }
+
+    public function setVersion($version)
+    {
+        $this->version = $version;
     }
 }

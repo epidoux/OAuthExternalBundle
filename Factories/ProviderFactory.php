@@ -50,8 +50,17 @@ class ProviderFactory {
             $callback_url = "oob";
         }
 
+        //handle version of oauth by service type
+        $version=2;
+        if($service['type']=="bitbucket" ||
+            $service['type'] == "etsy" ||
+            $service['type'] == "fitbit" ||
+            $service['type'] == "tumblr" ||
+            $service['type'] == "twitter"
+        ) $version = 1;
 
-        $connector = new ConnectorWrapper($name,null,$service['type'],$callback_url,$service['scopes']);
+
+        $connector = new ConnectorWrapper($name,null,$service['type'],$callback_url,$service['scopes'],$version);
         // Setup the storage
         if($storage_type == "session") $storage = new SymfonySession($session);
         else{
@@ -73,6 +82,26 @@ class ProviderFactory {
 
         $connector->setService($client);
         return $connector;
+    }
+
+    /**
+     * Retrieve the auth token from the request
+     * @param $request
+     * @param $connector the connector
+     * @return String the request token
+     */
+    public function retrieveAuthToken($request,$connector)
+    {
+        if($connector->getVersion() == 2)
+        {
+            $result = $request->get('code');
+        }
+        else{
+            //default oauth 1
+            $result = $request->get('oauth_token');
+        }
+
+        return $result;
     }
 
 }

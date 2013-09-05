@@ -74,33 +74,46 @@ class ConnectorService {
     public function connect($connector,$request)
     {
         $return = true;
-        $auth_token = $request->get('oauth_token');//request token
+        $auth_token = $this->providerFactory->retrieveAuthToken($request);//request token
         $token = $connector->getService()->getStorage()->retrieveAccessToken(ucfirst($connector->getType()));
         if($token!=null)
-            {
+        {
             if(!empty($auth_token))
             {
 
                 $auth_verifier = $request->get('oauth_verifier');
-                $this->logger->debug('Retrieving Token with params: oauth_token=>'.$auth_token." ; oauth_verifier=>".$auth_verifier);
 
-                // This was a callback request from twitter, get the token
-                $token = $connector->getService()->requestAccessToken(
-                    $auth_token,
-                    $auth_verifier,
-                    $token->getRequestTokenSecret()
-                );
+                if($connector->getVersion()==1){
+                    $this->logger->debug('Retrieving Token oauth1 with params: oauth_token=>'.$auth_token." ; oauth_verifier=>".$auth_verifier);
+
+                    $token = $connector->getService()->requestAccessToken(
+                        $auth_token,
+                        $auth_verifier,
+                        $token->getRequestTokenSecret()
+                    );
+                }
+                else{
+                    //oauth 2
+                    $this->logger->debug('Retrieving Token oauth2 with params: code=>'.$auth_token);
+
+                    $token = $connector->getService()->requestAccessToken($auth_token);
+                }
 
                 // Send a request now that we have access token
                 //$result = json_decode($connector->getService()->request('account/verify_credentials.json'));
 
-                $result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
-                $return = $result;
-            } else{
-                // extra request needed for oauth1 to request a request token :-)
-                $token = $connector->getService()->requestRequestToken();
+                /*$result = json_decode($connector->getService()->request('statuses/user_timeline.json?screen_name=eric_pidoux&count=20'));
+                $return = $result;*/
 
-                $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
+            } else{
+                if($connector->getVersion()==1){
+                    $token = $connector->getService()->requestRequestToken();
+                    $url = $connector->getService()->getAuthorizationUri(array('oauth_token' => $token->getRequestToken()));
+                }
+                else{
+                    //oauth2
+                    $url = $connector->getService()->getAuthorizationUri();
+                }
                 $return = $url;
             }
         }
