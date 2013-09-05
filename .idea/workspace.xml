@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Services/ConnectorService.php" afterPath="$PROJECT_DIR$/Services/ConnectorService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="01d3d838-39f8-4aad-9e89-c778c4d34348" name="Default" comment="" />
     <ignored path="OAuthExternalBundle.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="01d3d838-39f8-4aad-9e89-c778c4d34348" time="1378365598346" ignored="false" />
@@ -442,7 +439,7 @@
           <file leaf-file-name="ConnectorService.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="92" column="14" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.4159714">
+                <state line="94" column="78" selection-start="2734" selection-end="2734" vertical-scroll-proportion="0.45172825">
                   <folding />
                 </state>
               </provider>
@@ -1055,7 +1052,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Services/ConnectorService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="14" selection-start="2562" selection-end="2562" vertical-scroll-proportion="0.4159714">
+        <state line="94" column="78" selection-start="2734" selection-end="2734" vertical-scroll-proportion="0.45172825">
           <folding />
         </state>
       </provider>
