@@ -52,11 +52,11 @@ class ProviderFactory {
 
         //handle version of oauth by service type
         $version=2;
-        if($service['type']=="bitbucket" ||
-            $service['type'] == "etsy" ||
-            $service['type'] == "fitbit" ||
-            $service['type'] == "tumblr" ||
-            $service['type'] == "twitter"
+        if(strtolower($service['type'])=="bitbucket" ||
+            strtolower($service['type']) == "etsy" ||
+            strtolower($service['type']) == "fitbit" ||
+            strtolower($service['type']) == "tumblr" ||
+            strtolower($service['type']) == "twitter"
         ) $version = 1;
 
 

@@ -38,7 +38,6 @@ class ConnectorService {
     {
         $this->logger = $logger;
         $this->providerFactory = $providerFactory;
-
         foreach($services as $name=>$service)
         {
             $connector = $this->providerFactory->createConnector($name,$service,$session,$storage);
